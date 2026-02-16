@@ -1,0 +1,337 @@
+2026-02-11 17:39:17,356 INFO --- LANCEMENT DU SCRIPT ---
+2026-02-11 17:39:17,358 INFO Ingestion des donnÃ©es CSV...
+2026-02-11 17:39:17,374 INFO Ingestion terminÃ©e : 25 lignes traitÃ©es.
+2026-02-11 17:39:17,374 INFO Analyse IA et Scoring...
+2026-02-11 17:39:17,375 INFO DÃ©marrage de l'entrainement du modÃ¨le KNN...
+2026-02-11 17:39:17,390 INFO Score calulÃ© pour Dell OptiPlex 7090 : 2.8/5
+2026-02-11 17:39:17,390 INFO Score calulÃ© pour HP EliteDesk 800 G6 : 4.0/5
+2026-02-11 17:39:17,390 INFO Score calulÃ© pour Lenovo ThinkCentre M75s : 3.7/5
+2026-02-11 17:39:17,390 INFO Score calulÃ© pour Dell Precision 3650 : 1.3/5
+2026-02-11 17:39:17,391 INFO Score calulÃ© pour HP ProDesk 600 G7 : 4.0/5
+2026-02-11 17:39:17,391 INFO Score calulÃ© pour Fujitsu Esprimo P758 : 3.2/5
+2026-02-11 17:39:17,391 INFO Score calulÃ© pour Lenovo ThinkStation P350 : 2.8/5
+2026-02-11 17:39:17,391 INFO Score calulÃ© pour Dell OptiPlex 3080 : 3.0/5
+2026-02-11 17:39:17,391 INFO Score calulÃ© pour HP Z2 Mini G5 : 3.8/5
+2026-02-11 17:39:17,391 INFO Score calulÃ© pour Bull Evoquer Basic : 4.0/5
+2026-02-11 17:39:17,391 INFO Score calulÃ© pour Dell OptiPlex 5070 : 2.8/5
+2026-02-11 17:39:17,392 INFO Score calulÃ© pour Lenovo Ideacentre 5 : 3.0/5
+2026-02-11 17:39:17,392 INFO Score calulÃ© pour HP EliteDesk 800 G5 : 3.8/5
+2026-02-11 17:39:17,392 INFO Score calulÃ© pour Dell Precision 5820 : 2.0/5
+2026-02-11 17:39:17,392 INFO Score calulÃ© pour Lenovo ThinkCentre M720 : 3.2/5
+2026-02-11 17:39:17,392 INFO Score calulÃ© pour Fujitsu Celcius M740 : 1.2/5
+2026-02-11 17:39:17,392 INFO Score calulÃ© pour HP ProDesk 400 G6 : 3.7/5
+2026-02-11 17:39:17,392 INFO Score calulÃ© pour Dell Vostro 3681 : 4.0/5
+2026-02-11 17:39:17,392 INFO Score calulÃ© pour Bull Evoquer Premium : 2.3/5
+2026-02-11 17:39:17,393 INFO Score calulÃ© pour Lenovo ThinkStation P520 : 2.7/5
+2026-02-11 17:39:17,393 INFO Score calulÃ© pour HP Z4 G4 : 2.2/5
+2026-02-11 17:39:17,393 INFO Score calulÃ© pour Dell OptiPlex 7060 : 4.0/5
+2026-02-11 17:39:17,393 INFO Score calulÃ© pour Fujitsu Esprimo Q958 : 4.7/5
+2026-02-11 17:39:17,393 INFO Score calulÃ© pour Lenovo ThinkCentre M80s : 3.7/5
+2026-02-11 17:39:17,393 INFO Score calulÃ© pour HP EliteDesk 800 G8 : 2.8/5
+2026-02-11 17:39:17,393 INFO Score calulÃ© pour Dell OptiPlex 7090 : 2.8/5
+2026-02-11 17:39:17,393 INFO Score calulÃ© pour HP EliteDesk 800 G6 : 4.0/5
+2026-02-11 17:39:17,394 INFO Score calulÃ© pour Lenovo ThinkCentre M75s : 3.7/5
+2026-02-11 17:39:17,394 INFO Score calulÃ© pour Dell Precision 3650 : 1.3/5
+2026-02-11 17:39:17,394 INFO Score calulÃ© pour HP ProDesk 600 G7 : 4.0/5
+2026-02-11 17:39:17,394 INFO Score calulÃ© pour Fujitsu Esprimo P758 : 3.2/5
+2026-02-11 17:39:17,394 INFO Score calulÃ© pour Lenovo ThinkStation P350 : 2.8/5
+2026-02-11 17:39:17,394 INFO Score calulÃ© pour Dell OptiPlex 3080 : 3.0/5
+2026-02-11 17:39:17,394 INFO Score calulÃ© pour HP Z2 Mini G5 : 3.8/5
+2026-02-11 17:39:17,394 INFO Score calulÃ© pour Bull Evoquer Basic : 4.0/5
+2026-02-11 17:39:17,395 INFO Score calulÃ© pour Dell OptiPlex 5070 : 2.8/5
+2026-02-11 17:39:17,395 INFO Score calulÃ© pour Lenovo Ideacentre 5 : 3.0/5
+2026-02-11 17:39:17,395 INFO Score calulÃ© pour HP EliteDesk 800 G5 : 3.8/5
+2026-02-11 17:39:17,395 INFO Score calulÃ© pour Dell Precision 5820 : 2.0/5
+2026-02-11 17:39:17,395 INFO Score calulÃ© pour Lenovo ThinkCentre M720 : 3.2/5
+2026-02-11 17:39:17,395 INFO Score calulÃ© pour Fujitsu Celcius M740 : 1.2/5
+2026-02-11 17:39:17,395 INFO Score calulÃ© pour HP ProDesk 400 G6 : 3.7/5
+2026-02-11 17:39:17,395 INFO Score calulÃ© pour Dell Vostro 3681 : 4.0/5
+2026-02-11 17:39:17,395 INFO Score calulÃ© pour Bull Evoquer Premium : 2.3/5
+2026-02-11 17:39:17,396 INFO Score calulÃ© pour Lenovo ThinkStation P520 : 2.7/5
+2026-02-11 17:39:17,396 INFO Score calulÃ© pour HP Z4 G4 : 2.2/5
+2026-02-11 17:39:17,396 INFO Score calulÃ© pour Dell OptiPlex 7060 : 4.0/5
+2026-02-11 17:39:17,396 INFO Score calulÃ© pour Fujitsu Esprimo Q958 : 4.7/5
+2026-02-11 17:39:17,396 INFO Score calulÃ© pour Lenovo ThinkCentre M80s : 3.7/5
+2026-02-11 17:39:17,396 INFO Score calulÃ© pour HP EliteDesk 800 G8 : 2.8/5
+2026-02-11 17:39:17,396 INFO Score calulÃ© pour Dell OptiPlex 7090 : 2.8/5
+2026-02-11 17:39:17,396 INFO Score calulÃ© pour HP EliteDesk 800 G6 : 4.0/5
+2026-02-11 17:39:17,397 INFO Score calulÃ© pour Lenovo ThinkCentre M75s : 3.7/5
+2026-02-11 17:39:17,397 INFO Score calulÃ© pour Dell Precision 3650 : 1.3/5
+2026-02-11 17:39:17,397 INFO Score calulÃ© pour HP ProDesk 600 G7 : 4.0/5
+2026-02-11 17:39:17,397 INFO Score calulÃ© pour Fujitsu Esprimo P758 : 3.2/5
+2026-02-11 17:39:17,397 INFO Score calulÃ© pour Lenovo ThinkStation P350 : 2.8/5
+2026-02-11 17:39:17,397 INFO Score calulÃ© pour Dell OptiPlex 3080 : 3.0/5
+2026-02-11 17:39:17,397 INFO Score calulÃ© pour HP Z2 Mini G5 : 3.8/5
+2026-02-11 17:39:17,397 INFO Score calulÃ© pour Bull Evoquer Basic : 4.0/5
+2026-02-11 17:39:17,398 INFO Score calulÃ© pour Dell OptiPlex 5070 : 2.8/5
+2026-02-11 17:39:17,398 INFO Score calulÃ© pour Lenovo Ideacentre 5 : 3.0/5
+2026-02-11 17:39:17,398 INFO Score calulÃ© pour HP EliteDesk 800 G5 : 3.8/5
+2026-02-11 17:39:17,398 INFO Score calulÃ© pour Dell Precision 5820 : 2.0/5
+2026-02-11 17:39:17,398 INFO Score calulÃ© pour Lenovo ThinkCentre M720 : 3.2/5
+2026-02-11 17:39:17,398 INFO Score calulÃ© pour Fujitsu Celcius M740 : 1.2/5
+2026-02-11 17:39:17,398 INFO Score calulÃ© pour HP ProDesk 400 G6 : 3.7/5
+2026-02-11 17:39:17,398 INFO Score calulÃ© pour Dell Vostro 3681 : 4.0/5
+2026-02-11 17:39:17,399 INFO Score calulÃ© pour Bull Evoquer Premium : 2.3/5
+2026-02-11 17:39:17,399 INFO Score calulÃ© pour Lenovo ThinkStation P520 : 2.7/5
+2026-02-11 17:39:17,399 INFO Score calulÃ© pour HP Z4 G4 : 2.2/5
+2026-02-11 17:39:17,399 INFO Score calulÃ© pour Dell OptiPlex 7060 : 4.0/5
+2026-02-11 17:39:17,399 INFO Score calulÃ© pour Fujitsu Esprimo Q958 : 4.7/5
+2026-02-11 17:39:17,399 INFO Score calulÃ© pour Lenovo ThinkCentre M80s : 3.7/5
+2026-02-11 17:39:17,399 INFO Score calulÃ© pour HP EliteDesk 800 G8 : 2.8/5
+2026-02-11 17:39:17,399 INFO Score calulÃ© pour Dell OptiPlex 7090 : 2.8/5
+2026-02-11 17:39:17,399 INFO Score calulÃ© pour HP EliteDesk 800 G6 : 4.0/5
+2026-02-11 17:39:17,400 INFO Score calulÃ© pour Lenovo ThinkCentre M75s : 3.7/5
+2026-02-11 17:39:17,400 INFO Score calulÃ© pour Dell Precision 3650 : 1.3/5
+2026-02-11 17:39:17,400 INFO Score calulÃ© pour HP ProDesk 600 G7 : 4.0/5
+2026-02-11 17:39:17,400 INFO Score calulÃ© pour Fujitsu Esprimo P758 : 3.2/5
+2026-02-11 17:39:17,400 INFO Score calulÃ© pour Lenovo ThinkStation P350 : 2.8/5
+2026-02-11 17:39:17,400 INFO Score calulÃ© pour Dell OptiPlex 3080 : 3.0/5
+2026-02-11 17:39:17,400 INFO Score calulÃ© pour HP Z2 Mini G5 : 3.8/5
+2026-02-11 17:39:17,400 INFO Score calulÃ© pour Bull Evoquer Basic : 4.0/5
+2026-02-11 17:39:17,401 INFO Score calulÃ© pour Dell OptiPlex 5070 : 2.8/5
+2026-02-11 17:39:17,401 INFO Score calulÃ© pour Lenovo Ideacentre 5 : 3.0/5
+2026-02-11 17:39:17,401 INFO Score calulÃ© pour HP EliteDesk 800 G5 : 3.8/5
+2026-02-11 17:39:17,401 INFO Score calulÃ© pour Dell Precision 5820 : 2.0/5
+2026-02-11 17:39:17,401 INFO Score calulÃ© pour Lenovo ThinkCentre M720 : 3.2/5
+2026-02-11 17:39:17,401 INFO Score calulÃ© pour Fujitsu Celcius M740 : 1.2/5
+2026-02-11 17:39:17,401 INFO Score calulÃ© pour HP ProDesk 400 G6 : 3.7/5
+2026-02-11 17:39:17,401 INFO Score calulÃ© pour Dell Vostro 3681 : 4.0/5
+2026-02-11 17:39:17,401 INFO Score calulÃ© pour Bull Evoquer Premium : 2.3/5
+2026-02-11 17:39:17,402 INFO Score calulÃ© pour Lenovo ThinkStation P520 : 2.7/5
+2026-02-11 17:39:17,402 INFO Score calulÃ© pour HP Z4 G4 : 2.2/5
+2026-02-11 17:39:17,402 INFO Score calulÃ© pour Dell OptiPlex 7060 : 4.0/5
+2026-02-11 17:39:17,402 INFO Score calulÃ© pour Fujitsu Esprimo Q958 : 4.7/5
+2026-02-11 17:39:17,402 INFO Score calulÃ© pour Lenovo ThinkCentre M80s : 3.7/5
+2026-02-11 17:39:17,402 INFO Score calulÃ© pour HP EliteDesk 800 G8 : 2.8/5
+2026-02-11 17:39:17,402 INFO Score calulÃ© pour Dell OptiPlex 7090 : 2.8/5
+2026-02-11 17:39:17,402 INFO Score calulÃ© pour HP EliteDesk 800 G6 : 4.0/5
+2026-02-11 17:39:17,403 INFO Score calulÃ© pour Lenovo ThinkCentre M75s : 3.7/5
+2026-02-11 17:39:17,403 INFO Score calulÃ© pour Dell Precision 3650 : 1.3/5
+2026-02-11 17:39:17,403 INFO Score calulÃ© pour HP ProDesk 600 G7 : 4.0/5
+2026-02-11 17:39:17,403 INFO Score calulÃ© pour Fujitsu Esprimo P758 : 3.2/5
+2026-02-11 17:39:17,403 INFO Score calulÃ© pour Lenovo ThinkStation P350 : 2.8/5
+2026-02-11 17:39:17,403 INFO Score calulÃ© pour Dell OptiPlex 3080 : 3.0/5
+2026-02-11 17:39:17,403 INFO Score calulÃ© pour HP Z2 Mini G5 : 3.8/5
+2026-02-11 17:39:17,403 INFO Score calulÃ© pour Bull Evoquer Basic : 4.0/5
+2026-02-11 17:39:17,403 INFO Score calulÃ© pour Dell OptiPlex 5070 : 2.8/5
+2026-02-11 17:39:17,404 INFO Score calulÃ© pour Lenovo Ideacentre 5 : 3.0/5
+2026-02-11 17:39:17,404 INFO Score calulÃ© pour HP EliteDesk 800 G5 : 3.8/5
+2026-02-11 17:39:17,404 INFO Score calulÃ© pour Dell Precision 5820 : 2.0/5
+2026-02-11 17:39:17,404 INFO Score calulÃ© pour Lenovo ThinkCentre M720 : 3.2/5
+2026-02-11 17:39:17,404 INFO Score calulÃ© pour Fujitsu Celcius M740 : 1.2/5
+2026-02-11 17:39:17,404 INFO Score calulÃ© pour HP ProDesk 400 G6 : 3.7/5
+2026-02-11 17:39:17,404 INFO Score calulÃ© pour Dell Vostro 3681 : 4.0/5
+2026-02-11 17:39:17,404 INFO Score calulÃ© pour Bull Evoquer Premium : 2.3/5
+2026-02-11 17:39:17,405 INFO Score calulÃ© pour Lenovo ThinkStation P520 : 2.7/5
+2026-02-11 17:39:17,405 INFO Score calulÃ© pour HP Z4 G4 : 2.2/5
+2026-02-11 17:39:17,405 INFO Score calulÃ© pour Dell OptiPlex 7060 : 4.0/5
+2026-02-11 17:39:17,405 INFO Score calulÃ© pour Fujitsu Esprimo Q958 : 4.7/5
+2026-02-11 17:39:17,405 INFO Score calulÃ© pour Lenovo ThinkCentre M80s : 3.7/5
+2026-02-11 17:39:17,405 INFO Score calulÃ© pour HP EliteDesk 800 G8 : 2.8/5
+2026-02-11 17:39:17,405 INFO Score calulÃ© pour Dell OptiPlex 7090 : 2.8/5
+2026-02-11 17:39:17,405 INFO Score calulÃ© pour HP EliteDesk 800 G6 : 4.0/5
+2026-02-11 17:39:17,406 INFO Score calulÃ© pour Lenovo ThinkCentre M75s : 3.7/5
+2026-02-11 17:39:17,406 INFO Score calulÃ© pour Dell Precision 3650 : 1.3/5
+2026-02-11 17:39:17,406 INFO Score calulÃ© pour HP ProDesk 600 G7 : 4.0/5
+2026-02-11 17:39:17,406 INFO Score calulÃ© pour Fujitsu Esprimo P758 : 3.2/5
+2026-02-11 17:39:17,406 INFO Score calulÃ© pour Lenovo ThinkStation P350 : 2.8/5
+2026-02-11 17:39:17,406 INFO Score calulÃ© pour Dell OptiPlex 3080 : 3.0/5
+2026-02-11 17:39:17,406 INFO Score calulÃ© pour HP Z2 Mini G5 : 3.8/5
+2026-02-11 17:39:17,406 INFO Score calulÃ© pour Bull Evoquer Basic : 4.0/5
+2026-02-11 17:39:17,406 INFO Score calulÃ© pour Dell OptiPlex 5070 : 2.8/5
+2026-02-11 17:39:17,407 INFO Score calulÃ© pour Lenovo Ideacentre 5 : 3.0/5
+2026-02-11 17:39:17,407 INFO Score calulÃ© pour HP EliteDesk 800 G5 : 3.8/5
+2026-02-11 17:39:17,407 INFO Score calulÃ© pour Dell Precision 5820 : 2.0/5
+2026-02-11 17:39:17,407 INFO Score calulÃ© pour Lenovo ThinkCentre M720 : 3.2/5
+2026-02-11 17:39:17,407 INFO Score calulÃ© pour Fujitsu Celcius M740 : 1.2/5
+2026-02-11 17:39:17,407 INFO Score calulÃ© pour HP ProDesk 400 G6 : 3.7/5
+2026-02-11 17:39:17,407 INFO Score calulÃ© pour Dell Vostro 3681 : 4.0/5
+2026-02-11 17:39:17,407 INFO Score calulÃ© pour Bull Evoquer Premium : 2.3/5
+2026-02-11 17:39:17,408 INFO Score calulÃ© pour Lenovo ThinkStation P520 : 2.7/5
+2026-02-11 17:39:17,408 INFO Score calulÃ© pour HP Z4 G4 : 2.2/5
+2026-02-11 17:39:17,408 INFO Score calulÃ© pour Dell OptiPlex 7060 : 4.0/5
+2026-02-11 17:39:17,408 INFO Score calulÃ© pour Fujitsu Esprimo Q958 : 4.7/5
+2026-02-11 17:39:17,408 INFO Score calulÃ© pour Lenovo ThinkCentre M80s : 3.7/5
+2026-02-11 17:39:17,408 INFO Score calulÃ© pour HP EliteDesk 800 G8 : 2.8/5
+2026-02-11 17:39:17,414 INFO Scoring terminÃ© avec succÃ¨s.
+2026-02-16 16:39:32,522 INFO --- LANCEMENT DU SCRIPT ---
+2026-02-16 16:39:32,528 INFO Ingestion des données CSV...
+2026-02-16 16:39:32,550 INFO Ingestion terminée : 25 lignes traitées.
+2026-02-16 16:39:32,550 INFO Analyse IA et Scoring...
+2026-02-16 16:39:32,550 INFO Démarrage de l'entraînement du modèle KNN...
+2026-02-16 16:39:32,575 INFO Score calculé pour Dell OptiPlex 7090 : 2.8/5
+2026-02-16 16:39:32,575 INFO Score calculé pour HP EliteDesk 800 G6 : 4.0/5
+2026-02-16 16:39:32,576 INFO Score calculé pour Lenovo ThinkCentre M75s : 3.7/5
+2026-02-16 16:39:32,576 INFO Score calculé pour Dell Precision 3650 : 1.3/5
+2026-02-16 16:39:32,576 INFO Score calculé pour HP ProDesk 600 G7 : 4.0/5
+2026-02-16 16:39:32,576 INFO Score calculé pour Fujitsu Esprimo P758 : 3.2/5
+2026-02-16 16:39:32,577 INFO Score calculé pour Lenovo ThinkStation P350 : 2.8/5
+2026-02-16 16:39:32,577 INFO Score calculé pour Dell OptiPlex 3080 : 3.0/5
+2026-02-16 16:39:32,577 INFO Score calculé pour HP Z2 Mini G5 : 3.8/5
+2026-02-16 16:39:32,577 INFO Score calculé pour Bull Evoquer Basic : 4.0/5
+2026-02-16 16:39:32,577 INFO Score calculé pour Dell OptiPlex 5070 : 2.8/5
+2026-02-16 16:39:32,578 INFO Score calculé pour Lenovo Ideacentre 5 : 3.0/5
+2026-02-16 16:39:32,578 INFO Score calculé pour HP EliteDesk 800 G5 : 3.8/5
+2026-02-16 16:39:32,578 INFO Score calculé pour Dell Precision 5820 : 2.0/5
+2026-02-16 16:39:32,578 INFO Score calculé pour Lenovo ThinkCentre M720 : 3.2/5
+2026-02-16 16:39:32,579 INFO Score calculé pour Fujitsu Celcius M740 : 1.2/5
+2026-02-16 16:39:32,579 INFO Score calculé pour HP ProDesk 400 G6 : 3.7/5
+2026-02-16 16:39:32,579 INFO Score calculé pour Dell Vostro 3681 : 4.0/5
+2026-02-16 16:39:32,579 INFO Score calculé pour Bull Evoquer Premium : 2.3/5
+2026-02-16 16:39:32,579 INFO Score calculé pour Lenovo ThinkStation P520 : 2.7/5
+2026-02-16 16:39:32,580 INFO Score calculé pour HP Z4 G4 : 2.2/5
+2026-02-16 16:39:32,580 INFO Score calculé pour Dell OptiPlex 7060 : 4.0/5
+2026-02-16 16:39:32,580 INFO Score calculé pour Fujitsu Esprimo Q958 : 4.7/5
+2026-02-16 16:39:32,580 INFO Score calculé pour Lenovo ThinkCentre M80s : 3.7/5
+2026-02-16 16:39:32,581 INFO Score calculé pour HP EliteDesk 800 G8 : 2.8/5
+2026-02-16 16:39:32,581 INFO Score calculé pour Dell OptiPlex 7090 : 2.8/5
+2026-02-16 16:39:32,581 INFO Score calculé pour HP EliteDesk 800 G6 : 4.0/5
+2026-02-16 16:39:32,581 INFO Score calculé pour Lenovo ThinkCentre M75s : 3.7/5
+2026-02-16 16:39:32,581 INFO Score calculé pour Dell Precision 3650 : 1.3/5
+2026-02-16 16:39:32,582 INFO Score calculé pour HP ProDesk 600 G7 : 4.0/5
+2026-02-16 16:39:32,582 INFO Score calculé pour Fujitsu Esprimo P758 : 3.2/5
+2026-02-16 16:39:32,582 INFO Score calculé pour Lenovo ThinkStation P350 : 2.8/5
+2026-02-16 16:39:32,582 INFO Score calculé pour Dell OptiPlex 3080 : 3.0/5
+2026-02-16 16:39:32,582 INFO Score calculé pour HP Z2 Mini G5 : 3.8/5
+2026-02-16 16:39:32,583 INFO Score calculé pour Bull Evoquer Basic : 4.0/5
+2026-02-16 16:39:32,583 INFO Score calculé pour Dell OptiPlex 5070 : 2.8/5
+2026-02-16 16:39:32,583 INFO Score calculé pour Lenovo Ideacentre 5 : 3.0/5
+2026-02-16 16:39:32,583 INFO Score calculé pour HP EliteDesk 800 G5 : 3.8/5
+2026-02-16 16:39:32,584 INFO Score calculé pour Dell Precision 5820 : 2.0/5
+2026-02-16 16:39:32,584 INFO Score calculé pour Lenovo ThinkCentre M720 : 3.2/5
+2026-02-16 16:39:32,584 INFO Score calculé pour Fujitsu Celcius M740 : 1.2/5
+2026-02-16 16:39:32,584 INFO Score calculé pour HP ProDesk 400 G6 : 3.7/5
+2026-02-16 16:39:32,584 INFO Score calculé pour Dell Vostro 3681 : 4.0/5
+2026-02-16 16:39:32,585 INFO Score calculé pour Bull Evoquer Premium : 2.3/5
+2026-02-16 16:39:32,585 INFO Score calculé pour Lenovo ThinkStation P520 : 2.7/5
+2026-02-16 16:39:32,585 INFO Score calculé pour HP Z4 G4 : 2.2/5
+2026-02-16 16:39:32,585 INFO Score calculé pour Dell OptiPlex 7060 : 4.0/5
+2026-02-16 16:39:32,585 INFO Score calculé pour Fujitsu Esprimo Q958 : 4.7/5
+2026-02-16 16:39:32,586 INFO Score calculé pour Lenovo ThinkCentre M80s : 3.7/5
+2026-02-16 16:39:32,586 INFO Score calculé pour HP EliteDesk 800 G8 : 2.8/5
+2026-02-16 16:39:32,586 INFO Score calculé pour Dell OptiPlex 7090 : 2.8/5
+2026-02-16 16:39:32,586 INFO Score calculé pour HP EliteDesk 800 G6 : 4.0/5
+2026-02-16 16:39:32,586 INFO Score calculé pour Lenovo ThinkCentre M75s : 3.7/5
+2026-02-16 16:39:32,587 INFO Score calculé pour Dell Precision 3650 : 1.3/5
+2026-02-16 16:39:32,587 INFO Score calculé pour HP ProDesk 600 G7 : 4.0/5
+2026-02-16 16:39:32,587 INFO Score calculé pour Fujitsu Esprimo P758 : 3.2/5
+2026-02-16 16:39:32,587 INFO Score calculé pour Lenovo ThinkStation P350 : 2.8/5
+2026-02-16 16:39:32,588 INFO Score calculé pour Dell OptiPlex 3080 : 3.0/5
+2026-02-16 16:39:32,588 INFO Score calculé pour HP Z2 Mini G5 : 3.8/5
+2026-02-16 16:39:32,588 INFO Score calculé pour Bull Evoquer Basic : 4.0/5
+2026-02-16 16:39:32,588 INFO Score calculé pour Dell OptiPlex 5070 : 2.8/5
+2026-02-16 16:39:32,588 INFO Score calculé pour Lenovo Ideacentre 5 : 3.0/5
+2026-02-16 16:39:32,589 INFO Score calculé pour HP EliteDesk 800 G5 : 3.8/5
+2026-02-16 16:39:32,589 INFO Score calculé pour Dell Precision 5820 : 2.0/5
+2026-02-16 16:39:32,589 INFO Score calculé pour Lenovo ThinkCentre M720 : 3.2/5
+2026-02-16 16:39:32,589 INFO Score calculé pour Fujitsu Celcius M740 : 1.2/5
+2026-02-16 16:39:32,589 INFO Score calculé pour HP ProDesk 400 G6 : 3.7/5
+2026-02-16 16:39:32,590 INFO Score calculé pour Dell Vostro 3681 : 4.0/5
+2026-02-16 16:39:32,590 INFO Score calculé pour Bull Evoquer Premium : 2.3/5
+2026-02-16 16:39:32,590 INFO Score calculé pour Lenovo ThinkStation P520 : 2.7/5
+2026-02-16 16:39:32,590 INFO Score calculé pour HP Z4 G4 : 2.2/5
+2026-02-16 16:39:32,591 INFO Score calculé pour Dell OptiPlex 7060 : 4.0/5
+2026-02-16 16:39:32,591 INFO Score calculé pour Fujitsu Esprimo Q958 : 4.7/5
+2026-02-16 16:39:32,591 INFO Score calculé pour Lenovo ThinkCentre M80s : 3.7/5
+2026-02-16 16:39:32,591 INFO Score calculé pour HP EliteDesk 800 G8 : 2.8/5
+2026-02-16 16:39:32,591 INFO Score calculé pour Dell OptiPlex 7090 : 2.8/5
+2026-02-16 16:39:32,592 INFO Score calculé pour HP EliteDesk 800 G6 : 4.0/5
+2026-02-16 16:39:32,592 INFO Score calculé pour Lenovo ThinkCentre M75s : 3.7/5
+2026-02-16 16:39:32,592 INFO Score calculé pour Dell Precision 3650 : 1.3/5
+2026-02-16 16:39:32,592 INFO Score calculé pour HP ProDesk 600 G7 : 4.0/5
+2026-02-16 16:39:32,592 INFO Score calculé pour Fujitsu Esprimo P758 : 3.2/5
+2026-02-16 16:39:32,593 INFO Score calculé pour Lenovo ThinkStation P350 : 2.8/5
+2026-02-16 16:39:32,593 INFO Score calculé pour Dell OptiPlex 3080 : 3.0/5
+2026-02-16 16:39:32,593 INFO Score calculé pour HP Z2 Mini G5 : 3.8/5
+2026-02-16 16:39:32,593 INFO Score calculé pour Bull Evoquer Basic : 4.0/5
+2026-02-16 16:39:32,593 INFO Score calculé pour Dell OptiPlex 5070 : 2.8/5
+2026-02-16 16:39:32,594 INFO Score calculé pour Lenovo Ideacentre 5 : 3.0/5
+2026-02-16 16:39:32,594 INFO Score calculé pour HP EliteDesk 800 G5 : 3.8/5
+2026-02-16 16:39:32,594 INFO Score calculé pour Dell Precision 5820 : 2.0/5
+2026-02-16 16:39:32,594 INFO Score calculé pour Lenovo ThinkCentre M720 : 3.2/5
+2026-02-16 16:39:32,595 INFO Score calculé pour Fujitsu Celcius M740 : 1.2/5
+2026-02-16 16:39:32,595 INFO Score calculé pour HP ProDesk 400 G6 : 3.7/5
+2026-02-16 16:39:32,595 INFO Score calculé pour Dell Vostro 3681 : 4.0/5
+2026-02-16 16:39:32,595 INFO Score calculé pour Bull Evoquer Premium : 2.3/5
+2026-02-16 16:39:32,595 INFO Score calculé pour Lenovo ThinkStation P520 : 2.7/5
+2026-02-16 16:39:32,596 INFO Score calculé pour HP Z4 G4 : 2.2/5
+2026-02-16 16:39:32,596 INFO Score calculé pour Dell OptiPlex 7060 : 4.0/5
+2026-02-16 16:39:32,596 INFO Score calculé pour Fujitsu Esprimo Q958 : 4.7/5
+2026-02-16 16:39:32,596 INFO Score calculé pour Lenovo ThinkCentre M80s : 3.7/5
+2026-02-16 16:39:32,596 INFO Score calculé pour HP EliteDesk 800 G8 : 2.8/5
+2026-02-16 16:39:32,597 INFO Score calculé pour Dell OptiPlex 7090 : 2.8/5
+2026-02-16 16:39:32,597 INFO Score calculé pour HP EliteDesk 800 G6 : 4.0/5
+2026-02-16 16:39:32,597 INFO Score calculé pour Lenovo ThinkCentre M75s : 3.7/5
+2026-02-16 16:39:32,597 INFO Score calculé pour Dell Precision 3650 : 1.3/5
+2026-02-16 16:39:32,597 INFO Score calculé pour HP ProDesk 600 G7 : 4.0/5
+2026-02-16 16:39:32,598 INFO Score calculé pour Fujitsu Esprimo P758 : 3.2/5
+2026-02-16 16:39:32,598 INFO Score calculé pour Lenovo ThinkStation P350 : 2.8/5
+2026-02-16 16:39:32,598 INFO Score calculé pour Dell OptiPlex 3080 : 3.0/5
+2026-02-16 16:39:32,598 INFO Score calculé pour HP Z2 Mini G5 : 3.8/5
+2026-02-16 16:39:32,598 INFO Score calculé pour Bull Evoquer Basic : 4.0/5
+2026-02-16 16:39:32,599 INFO Score calculé pour Dell OptiPlex 5070 : 2.8/5
+2026-02-16 16:39:32,599 INFO Score calculé pour Lenovo Ideacentre 5 : 3.0/5
+2026-02-16 16:39:32,599 INFO Score calculé pour HP EliteDesk 800 G5 : 3.8/5
+2026-02-16 16:39:32,599 INFO Score calculé pour Dell Precision 5820 : 2.0/5
+2026-02-16 16:39:32,600 INFO Score calculé pour Lenovo ThinkCentre M720 : 3.2/5
+2026-02-16 16:39:32,600 INFO Score calculé pour Fujitsu Celcius M740 : 1.2/5
+2026-02-16 16:39:32,600 INFO Score calculé pour HP ProDesk 400 G6 : 3.7/5
+2026-02-16 16:39:32,600 INFO Score calculé pour Dell Vostro 3681 : 4.0/5
+2026-02-16 16:39:32,600 INFO Score calculé pour Bull Evoquer Premium : 2.3/5
+2026-02-16 16:39:32,601 INFO Score calculé pour Lenovo ThinkStation P520 : 2.7/5
+2026-02-16 16:39:32,601 INFO Score calculé pour HP Z4 G4 : 2.2/5
+2026-02-16 16:39:32,601 INFO Score calculé pour Dell OptiPlex 7060 : 4.0/5
+2026-02-16 16:39:32,601 INFO Score calculé pour Fujitsu Esprimo Q958 : 4.7/5
+2026-02-16 16:39:32,601 INFO Score calculé pour Lenovo ThinkCentre M80s : 3.7/5
+2026-02-16 16:39:32,602 INFO Score calculé pour HP EliteDesk 800 G8 : 2.8/5
+2026-02-16 16:39:32,602 INFO Score calculé pour Dell OptiPlex 7090 : 2.8/5
+2026-02-16 16:39:32,602 INFO Score calculé pour HP EliteDesk 800 G6 : 4.0/5
+2026-02-16 16:39:32,602 INFO Score calculé pour Lenovo ThinkCentre M75s : 3.7/5
+2026-02-16 16:39:32,602 INFO Score calculé pour Dell Precision 3650 : 1.3/5
+2026-02-16 16:39:32,603 INFO Score calculé pour HP ProDesk 600 G7 : 4.0/5
+2026-02-16 16:39:32,603 INFO Score calculé pour Fujitsu Esprimo P758 : 3.2/5
+2026-02-16 16:39:32,603 INFO Score calculé pour Lenovo ThinkStation P350 : 2.8/5
+2026-02-16 16:39:32,603 INFO Score calculé pour Dell OptiPlex 3080 : 3.0/5
+2026-02-16 16:39:32,604 INFO Score calculé pour HP Z2 Mini G5 : 3.8/5
+2026-02-16 16:39:32,604 INFO Score calculé pour Bull Evoquer Basic : 4.0/5
+2026-02-16 16:39:32,604 INFO Score calculé pour Dell OptiPlex 5070 : 2.8/5
+2026-02-16 16:39:32,604 INFO Score calculé pour Lenovo Ideacentre 5 : 3.0/5
+2026-02-16 16:39:32,604 INFO Score calculé pour HP EliteDesk 800 G5 : 3.8/5
+2026-02-16 16:39:32,605 INFO Score calculé pour Dell Precision 5820 : 2.0/5
+2026-02-16 16:39:32,605 INFO Score calculé pour Lenovo ThinkCentre M720 : 3.2/5
+2026-02-16 16:39:32,605 INFO Score calculé pour Fujitsu Celcius M740 : 1.2/5
+2026-02-16 16:39:32,605 INFO Score calculé pour HP ProDesk 400 G6 : 3.7/5
+2026-02-16 16:39:32,605 INFO Score calculé pour Dell Vostro 3681 : 4.0/5
+2026-02-16 16:39:32,606 INFO Score calculé pour Bull Evoquer Premium : 2.3/5
+2026-02-16 16:39:32,606 INFO Score calculé pour Lenovo ThinkStation P520 : 2.7/5
+2026-02-16 16:39:32,606 INFO Score calculé pour HP Z4 G4 : 2.2/5
+2026-02-16 16:39:32,606 INFO Score calculé pour Dell OptiPlex 7060 : 4.0/5
+2026-02-16 16:39:32,606 INFO Score calculé pour Fujitsu Esprimo Q958 : 4.7/5
+2026-02-16 16:39:32,607 INFO Score calculé pour Lenovo ThinkCentre M80s : 3.7/5
+2026-02-16 16:39:32,607 INFO Score calculé pour HP EliteDesk 800 G8 : 2.8/5
+2026-02-16 16:39:32,607 INFO Score calculé pour Dell OptiPlex 7090 : 2.8/5
+2026-02-16 16:39:32,607 INFO Score calculé pour HP EliteDesk 800 G6 : 4.0/5
+2026-02-16 16:39:32,607 INFO Score calculé pour Lenovo ThinkCentre M75s : 3.7/5
+2026-02-16 16:39:32,608 INFO Score calculé pour Dell Precision 3650 : 1.3/5
+2026-02-16 16:39:32,608 INFO Score calculé pour HP ProDesk 600 G7 : 4.0/5
+2026-02-16 16:39:32,608 INFO Score calculé pour Fujitsu Esprimo P758 : 3.2/5
+2026-02-16 16:39:32,608 INFO Score calculé pour Lenovo ThinkStation P350 : 2.8/5
+2026-02-16 16:39:32,609 INFO Score calculé pour Dell OptiPlex 3080 : 3.0/5
+2026-02-16 16:39:32,609 INFO Score calculé pour HP Z2 Mini G5 : 3.8/5
+2026-02-16 16:39:32,609 INFO Score calculé pour Bull Evoquer Basic : 4.0/5
+2026-02-16 16:39:32,609 INFO Score calculé pour Dell OptiPlex 5070 : 2.8/5
+2026-02-16 16:39:32,609 INFO Score calculé pour Lenovo Ideacentre 5 : 3.0/5
+2026-02-16 16:39:32,610 INFO Score calculé pour HP EliteDesk 800 G5 : 3.8/5
+2026-02-16 16:39:32,610 INFO Score calculé pour Dell Precision 5820 : 2.0/5
+2026-02-16 16:39:32,610 INFO Score calculé pour Lenovo ThinkCentre M720 : 3.2/5
+2026-02-16 16:39:32,610 INFO Score calculé pour Fujitsu Celcius M740 : 1.2/5
+2026-02-16 16:39:32,610 INFO Score calculé pour HP ProDesk 400 G6 : 3.7/5
+2026-02-16 16:39:32,611 INFO Score calculé pour Dell Vostro 3681 : 4.0/5
+2026-02-16 16:39:32,611 INFO Score calculé pour Bull Evoquer Premium : 2.3/5
+2026-02-16 16:39:32,611 INFO Score calculé pour Lenovo ThinkStation P520 : 2.7/5
+2026-02-16 16:39:32,611 INFO Score calculé pour HP Z4 G4 : 2.2/5
+2026-02-16 16:39:32,611 INFO Score calculé pour Dell OptiPlex 7060 : 4.0/5
+2026-02-16 16:39:32,612 INFO Score calculé pour Fujitsu Esprimo Q958 : 4.7/5
+2026-02-16 16:39:32,612 INFO Score calculé pour Lenovo ThinkCentre M80s : 3.7/5
+2026-02-16 16:39:32,612 INFO Score calculé pour HP EliteDesk 800 G8 : 2.8/5
+2026-02-16 16:39:32,619 INFO Scoring terminé avec succès.
