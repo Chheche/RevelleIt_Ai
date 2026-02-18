@@ -24,5 +24,8 @@ class DesktopImpact(Base):
     TPE = Column(Float)  # Total Primary Energy (Énergie primaire)
     WEEE = Column(Float)  # Waste Electrical and Electronic Equipment (Déchets)
 
+    # Nouvelle colonne pour le département
+    Departement = Column(String)
+
     # Colonne pour le scoring final (Note sur 5)
     Score_Final = Column(Float)

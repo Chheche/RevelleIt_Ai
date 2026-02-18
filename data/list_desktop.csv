@@ -1,26 +1,26 @@
-Marque;Modele;Type_Processeur;Nb_Coeurs;Frequence_Processeur_GHz;RAM_Go;Stockage_Go;Type_Stockage;Carte_Graphique;Consommation_Watt;Duree_Vie_Moyenne_ans;Poids_kg;Date_Commercialisation
-Dell;OptiPlex 7090;i7-10700;8;2.90;16;512;SSD;Intel UHD Graphics 630;200;5;5.2;2021
-HP;EliteDesk 800 G6;i5-10500;6;3.10;8;256;SSD;Intel UHD Graphics 630;180;5;4.8;2020
-Lenovo;ThinkCentre M75s;Ryzen 5 Pro 5650G;6;3.90;16;512;SSD;Radeon Graphics;190;5;5.5;2021
-Dell;Precision 3650;i9-10900;10;2.80;32;1000;SSD;NVIDIA Quadro P1000;350;4;7.1;2020
-HP;ProDesk 600 G7;i5-10500T;6;2.30;8;256;SSD;Intel UHD Graphics 630;150;5;4.5;2020
-Fujitsu;Esprimo P758;E-2378G;8;2.80;16;512;SSD;Intel UHD Graphics P750;170;5;5.8;2021
-Lenovo;ThinkStation P350;i7-11700;8;2.50;32;512;SSD;NVIDIA T400;300;4;6.9;2021
-Dell;OptiPlex 3080;i5-10500;6;3.10;8;1000;HDD;Intel UHD Graphics 630;210;5;5.0;2020
-HP;Z2 Mini G5;i5-10500T;6;2.30;16;512;SSD;Intel UHD Graphics 630;120;5;1.6;2021
-Bull;Evoquer Basic;E-2236;6;3.40;16;256;SSD;Intel UHD Graphics P630;180;5;6.2;2019
-Dell;OptiPlex 5070;i7-9700;8;3.00;16;512;SSD;Intel UHD Graphics 630;195;5;5.3;2019
-Lenovo;Ideacentre 5;i5-12400;6;2.50;8;1000;HDD;Intel UHD Graphics 730;220;5;5.7;2022
-HP;EliteDesk 800 G5;i7-8700;6;3.20;16;256;SSD;Intel UHD Graphics 630;230;5;5.0;2018
-Dell;Precision 5820;Xeon W-2223;4;3.60;32;1000;SSD;NVIDIA Quadro RTX 4000;500;4;15.8;2019
-Lenovo;ThinkCentre M720;i5-8500;6;3.00;8;1000;HDD;Intel UHD Graphics 630;200;5;5.6;2018
-Fujitsu;Celcius M740;Xeon E-2278G;8;3.40;64;2000;SSD;NVIDIA Quadro P2200;450;4;12.5;2020
-HP;ProDesk 400 G6;i3-10100;4;3.60;4;1000;HDD;Intel UHD Graphics 630;140;5;4.3;2020
-Dell;Vostro 3681;i5-10400;6;2.90;8;256;SSD;Intel UHD Graphics 630;180;5;5.1;2020
-Bull;Evoquer Premium;E-2286G;8;4.00;32;1000;SSD;Intel UHD Graphics P630;210;5;7.1;2020
-Lenovo;ThinkStation P520;Xeon W-2125;4;4.00;16;512;SSD;NVIDIA Quadro P1000;400;4;13.6;2018
-HP;Z4 G4;Xeon W-2223;4;3.60;32;1000;SSD;NVIDIA Quadro P2000;450;4;14.2;2019
-Dell;OptiPlex 7060;i5-8500;6;3.00;8;256;SSD;Intel UHD Graphics 630;185;5;5.4;2018
-Fujitsu;Esprimo Q958;E-2224G;4;3.50;8;256;SSD;Intel UHD Graphics P630;160;5;4.9;2019
-Lenovo;ThinkCentre M80s;i5-10505;6;3.20;16;512;SSD;Intel UHD Graphics 630;175;5;5.8;2020
-HP;EliteDesk 800 G8;i7-11700;8;2.50;16;512;SSD;Intel UHD Graphics 750;210;5;5.1;2021
+Marque;Modele;Type_Processeur;Nb_Coeurs;Frequence_Processeur_GHz;RAM_Go;Stockage_Go;Type_Stockage;Carte_Graphique;Consommation_Watt;Duree_Vie_Moyenne_ans;Poids_kg;Date_Commercialisation;Departement
+Dell;OptiPlex 7090;i7-10700;8;2.9;16;512;SSD;Intel UHD Graphics 630;200;5;5.2;2021;My_Global_Services
+HP;EliteDesk 800 G6;i5-10500;6;3.1;8;256;SSD;Intel UHD Graphics 630;180;5;4.8;2020;My_Rail_Subsidiary
+Lenovo;ThinkCentre M75s;Ryzen 5 Pro 5650G;6;3.9;16;512;SSD;Radeon Graphics;190;5;5.5;2021;Information System
+Dell;Precision 3650;i9-10900;10;2.8;32;1000;SSD;NVIDIA Quadro P1000;350;4;7.1;2020;Communication / Marketing
+HP;ProDesk 600 G7;i5-10500T;6;2.3;8;256;SSD;Intel UHD Graphics 630;150;5;4.5;2020;Communication / Marketing
+Fujitsu;Esprimo P758;E-2378G;8;2.8;16;512;SSD;Intel UHD Graphics P750;170;5;5.8;2021;My_Global_Services
+Lenovo;ThinkStation P350;i7-11700;8;2.5;32;512;SSD;NVIDIA T400;300;4;6.9;2021;My_Rail_Subsidiary
+Dell;OptiPlex 3080;i5-10500;6;3.1;8;1000;HDD;Intel UHD Graphics 630;210;5;5.0;2020;Information System
+HP;Z2 Mini G5;i5-10500T;6;2.3;16;512;SSD;Intel UHD Graphics 630;120;5;1.6;2021;Communication / Marketing
+Bull;Evoquer Basic;E-2236;6;3.4;16;256;SSD;Intel UHD Graphics P630;180;5;6.2;2019;Communication / Marketing
+Dell;OptiPlex 5070;i7-9700;8;3.0;16;512;SSD;Intel UHD Graphics 630;195;5;5.3;2019;My_Global_Services
+Lenovo;Ideacentre 5;i5-12400;6;2.5;8;1000;HDD;Intel UHD Graphics 730;220;5;5.7;2022;My_Rail_Subsidiary
+HP;EliteDesk 800 G5;i7-8700;6;3.2;16;256;SSD;Intel UHD Graphics 630;230;5;5.0;2018;Information System
+Dell;Precision 5820;Xeon W-2223;4;3.6;32;1000;SSD;NVIDIA Quadro RTX 4000;500;4;15.8;2019;Communication / Marketing
+Lenovo;ThinkCentre M720;i5-8500;6;3.0;8;1000;HDD;Intel UHD Graphics 630;200;5;5.6;2018;Communication / Marketing
+Fujitsu;Celcius M740;Xeon E-2278G;8;3.4;64;2000;SSD;NVIDIA Quadro P2200;450;4;12.5;2020;My_Global_Services
+HP;ProDesk 400 G6;i3-10100;4;3.6;4;1000;HDD;Intel UHD Graphics 630;140;5;4.3;2020;My_Rail_Subsidiary
+Dell;Vostro 3681;i5-10400;6;2.9;8;256;SSD;Intel UHD Graphics 630;180;5;5.1;2020;Information System
+Bull;Evoquer Premium;E-2286G;8;4.0;32;1000;SSD;Intel UHD Graphics P630;210;5;7.1;2020;Communication / Marketing
+Lenovo;ThinkStation P520;Xeon W-2125;4;4.0;16;512;SSD;NVIDIA Quadro P1000;400;4;13.6;2018;Communication / Marketing
+HP;Z4 G4;Xeon W-2223;4;3.6;32;1000;SSD;NVIDIA Quadro P2000;450;4;14.2;2019;My_Global_Services
+Dell;OptiPlex 7060;i5-8500;6;3.0;8;256;SSD;Intel UHD Graphics 630;185;5;5.4;2018;My_Rail_Subsidiary
+Fujitsu;Esprimo Q958;E-2224G;4;3.5;8;256;SSD;Intel UHD Graphics P630;160;5;4.9;2019;Information System
+Lenovo;ThinkCentre M80s;i5-10505;6;3.2;16;512;SSD;Intel UHD Graphics 630;175;5;5.8;2020;Communication / Marketing
+HP;EliteDesk 800 G8;i7-11700;8;2.5;16;512;SSD;Intel UHD Graphics 750;210;5;5.1;2021;Communication / Marketing

@@ -335,3 +335,832 @@
 2026-02-16 16:39:32,612 INFO Score calculé pour Lenovo ThinkCentre M80s : 3.7/5
 2026-02-16 16:39:32,612 INFO Score calculé pour HP EliteDesk 800 G8 : 2.8/5
 2026-02-16 16:39:32,619 INFO Scoring terminé avec succès.
+2026-02-18 01:57:52,874 INFO --- LANCEMENT DU SCRIPT ---
+2026-02-18 01:57:52,884 INFO Ingestion des données CSV...
+2026-02-18 02:12:26,263 INFO --- LANCEMENT DU SCRIPT ---
+2026-02-18 02:12:26,281 ERROR Impossible d'ajouter la colonne Departement : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Departement TEXT'
+2026-02-18 02:12:26,281 INFO Ingestion des données CSV...
+2026-02-18 02:12:26,314 INFO Ingestion terminée : 25 lignes traitées.
+2026-02-18 02:12:26,314 INFO Analyse IA et Scoring...
+2026-02-18 02:12:26,314 INFO Démarrage de l'entraînement du modèle KNN...
+2026-02-18 02:12:26,343 INFO Score calculé pour Dell OptiPlex 7090 (dept 75) : 3.7/5
+2026-02-18 02:12:26,343 INFO Score calculé pour HP EliteDesk 800 G6 (dept 69) : 3.5/5
+2026-02-18 02:12:26,344 INFO Score calculé pour Lenovo ThinkCentre M75s (dept 34) : 2.5/5
+2026-02-18 02:12:26,344 INFO Score calculé pour Dell Precision 3650 (dept 13) : 1.7/5
+2026-02-18 02:12:26,344 INFO Score calculé pour HP ProDesk 600 G7 (dept 31) : 3.7/5
+2026-02-18 02:12:26,344 INFO Score calculé pour Fujitsu Esprimo P758 (dept 75) : 3.7/5
+2026-02-18 02:12:26,344 INFO Score calculé pour Lenovo ThinkStation P350 (dept 69) : 2.2/5
+2026-02-18 02:12:26,344 INFO Score calculé pour Dell OptiPlex 3080 (dept 34) : 2.2/5
+2026-02-18 02:12:26,344 INFO Score calculé pour HP Z2 Mini G5 (dept 13) : 4.2/5
+2026-02-18 02:12:26,345 INFO Score calculé pour Bull Evoquer Basic (dept 31) : 3.7/5
+2026-02-18 02:12:26,345 INFO Score calculé pour Dell OptiPlex 5070 (dept 75) : 3.7/5
+2026-02-18 02:12:26,345 INFO Score calculé pour Lenovo Ideacentre 5 (dept 69) : 2.3/5
+2026-02-18 02:12:26,345 INFO Score calculé pour HP EliteDesk 800 G5 (dept 34) : 3.2/5
+2026-02-18 02:12:26,345 INFO Score calculé pour Dell Precision 5820 (dept 13) : 2.5/5
+2026-02-18 02:12:26,345 INFO Score calculé pour Lenovo ThinkCentre M720 (dept 31) : 2.8/5
+2026-02-18 02:12:26,345 INFO Score calculé pour Fujitsu Celcius M740 (dept 75) : 1.3/5
+2026-02-18 02:12:26,345 INFO Score calculé pour HP ProDesk 400 G6 (dept 69) : 3.2/5
+2026-02-18 02:12:26,346 INFO Score calculé pour Dell Vostro 3681 (dept 34) : 3.2/5
+2026-02-18 02:12:26,346 INFO Score calculé pour Bull Evoquer Premium (dept 13) : 2.7/5
+2026-02-18 02:12:26,346 INFO Score calculé pour Lenovo ThinkStation P520 (dept 31) : 2.3/5
+2026-02-18 02:12:26,346 INFO Score calculé pour HP Z4 G4 (dept 75) : 2.8/5
+2026-02-18 02:12:26,346 INFO Score calculé pour Dell OptiPlex 7060 (dept 69) : 3.5/5
+2026-02-18 02:12:26,346 INFO Score calculé pour Fujitsu Esprimo Q958 (dept 34) : 3.8/5
+2026-02-18 02:12:26,346 INFO Score calculé pour Lenovo ThinkCentre M80s (dept 13) : 4.0/5
+2026-02-18 02:12:26,346 INFO Score calculé pour HP EliteDesk 800 G8 (dept 31) : 2.7/5
+2026-02-18 02:12:26,366 INFO Scoring terminé avec succès.
+2026-02-18 02:27:01,726 INFO --- LANCEMENT DU SCRIPT ---
+2026-02-18 02:27:01,735 ERROR Impossible d'ajouter la colonne Departement : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Departement TEXT'
+2026-02-18 02:27:01,735 INFO Ingestion des données CSV...
+2026-02-18 02:27:01,763 INFO Ingestion terminée : 25 lignes traitées.
+2026-02-18 02:27:01,763 INFO Analyse IA et Scoring...
+2026-02-18 02:27:01,763 INFO Démarrage de l'entraînement du modèle KNN...
+2026-02-18 02:27:01,787 INFO Score calculé pour Dell OptiPlex 7090 (dept 75) : 3.7/5
+2026-02-18 02:27:01,787 INFO Score calculé pour HP EliteDesk 800 G6 (dept 69) : 3.5/5
+2026-02-18 02:27:01,787 INFO Score calculé pour Lenovo ThinkCentre M75s (dept 34) : 2.5/5
+2026-02-18 02:27:01,787 INFO Score calculé pour Dell Precision 3650 (dept 13) : 1.7/5
+2026-02-18 02:27:01,787 INFO Score calculé pour HP ProDesk 600 G7 (dept 31) : 3.7/5
+2026-02-18 02:27:01,787 INFO Score calculé pour Fujitsu Esprimo P758 (dept 75) : 3.7/5
+2026-02-18 02:27:01,787 INFO Score calculé pour Lenovo ThinkStation P350 (dept 69) : 2.2/5
+2026-02-18 02:27:01,787 INFO Score calculé pour Dell OptiPlex 3080 (dept 34) : 2.2/5
+2026-02-18 02:27:01,787 INFO Score calculé pour HP Z2 Mini G5 (dept 13) : 4.2/5
+2026-02-18 02:27:01,788 INFO Score calculé pour Bull Evoquer Basic (dept 31) : 3.7/5
+2026-02-18 02:27:01,788 INFO Score calculé pour Dell OptiPlex 5070 (dept 75) : 3.7/5
+2026-02-18 02:27:01,788 INFO Score calculé pour Lenovo Ideacentre 5 (dept 69) : 2.3/5
+2026-02-18 02:27:01,788 INFO Score calculé pour HP EliteDesk 800 G5 (dept 34) : 3.2/5
+2026-02-18 02:27:01,788 INFO Score calculé pour Dell Precision 5820 (dept 13) : 2.5/5
+2026-02-18 02:27:01,788 INFO Score calculé pour Lenovo ThinkCentre M720 (dept 31) : 2.8/5
+2026-02-18 02:27:01,788 INFO Score calculé pour Fujitsu Celcius M740 (dept 75) : 1.3/5
+2026-02-18 02:27:01,788 INFO Score calculé pour HP ProDesk 400 G6 (dept 69) : 3.2/5
+2026-02-18 02:27:01,788 INFO Score calculé pour Dell Vostro 3681 (dept 34) : 3.2/5
+2026-02-18 02:27:01,788 INFO Score calculé pour Bull Evoquer Premium (dept 13) : 2.7/5
+2026-02-18 02:27:01,788 INFO Score calculé pour Lenovo ThinkStation P520 (dept 31) : 2.3/5
+2026-02-18 02:27:01,789 INFO Score calculé pour HP Z4 G4 (dept 75) : 2.8/5
+2026-02-18 02:27:01,789 INFO Score calculé pour Dell OptiPlex 7060 (dept 69) : 3.5/5
+2026-02-18 02:27:01,789 INFO Score calculé pour Fujitsu Esprimo Q958 (dept 34) : 3.8/5
+2026-02-18 02:27:01,789 INFO Score calculé pour Lenovo ThinkCentre M80s (dept 13) : 4.0/5
+2026-02-18 02:27:01,789 INFO Score calculé pour HP EliteDesk 800 G8 (dept 31) : 2.7/5
+2026-02-18 02:27:01,789 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:27:01,789 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:27:01,789 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 02:27:01,789 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 02:27:01,789 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 02:27:01,789 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:27:01,790 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 02:27:01,790 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 02:27:01,790 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 02:27:01,790 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 02:27:01,790 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:27:01,790 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 02:27:01,790 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 02:27:01,790 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 02:27:01,790 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 02:27:01,790 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 02:27:01,791 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 02:27:01,791 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 02:27:01,791 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 02:27:01,791 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 02:27:01,791 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 02:27:01,791 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:27:01,791 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 02:27:01,791 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 02:27:01,791 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 02:27:01,807 INFO Scoring terminé avec succès.
+2026-02-18 02:27:48,856 INFO --- LANCEMENT DU SCRIPT ---
+2026-02-18 02:27:48,873 ERROR Impossible d'ajouter la colonne Departement : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Departement TEXT'
+2026-02-18 02:27:48,873 INFO Ingestion des données CSV...
+2026-02-18 02:27:48,898 INFO Ingestion terminée : 25 lignes traitées.
+2026-02-18 02:27:48,898 INFO Analyse IA et Scoring...
+2026-02-18 02:27:48,899 INFO Démarrage de l'entraînement du modèle KNN...
+2026-02-18 02:27:48,922 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:27:48,922 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:27:48,922 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 02:27:48,922 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 02:27:48,922 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 02:27:48,922 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:27:48,922 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 02:27:48,923 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 02:27:48,923 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 02:27:48,923 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 02:27:48,923 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:27:48,923 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 02:27:48,923 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 02:27:48,923 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 02:27:48,923 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 02:27:48,923 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 02:27:48,923 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 02:27:48,923 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 02:27:48,924 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 02:27:48,924 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 02:27:48,924 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 02:27:48,924 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:27:48,924 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 02:27:48,924 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 02:27:48,924 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 02:27:48,940 INFO Scoring terminé avec succès.
+2026-02-18 02:28:01,976 INFO --- LANCEMENT DU SCRIPT ---
+2026-02-18 02:28:01,978 ERROR Impossible d'ajouter la colonne Departement : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Departement TEXT'
+2026-02-18 02:28:01,978 INFO Ingestion des données CSV...
+2026-02-18 02:28:02,000 INFO Ingestion terminée : 25 lignes traitées.
+2026-02-18 02:28:02,000 INFO Analyse IA et Scoring...
+2026-02-18 02:28:02,000 INFO Démarrage de l'entraînement du modèle KNN...
+2026-02-18 02:28:02,012 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:02,012 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:28:02,012 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 02:28:02,012 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 02:28:02,012 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 02:28:02,012 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:02,012 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 02:28:02,012 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 02:28:02,013 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 02:28:02,013 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 02:28:02,013 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:02,013 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 02:28:02,014 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 02:28:02,014 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 02:28:02,014 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 02:28:02,014 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 02:28:02,014 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 02:28:02,014 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 02:28:02,014 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 02:28:02,014 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 02:28:02,015 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 02:28:02,015 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:28:02,015 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 02:28:02,015 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 02:28:02,015 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 02:28:02,015 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:02,015 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:28:02,015 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 02:28:02,015 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 02:28:02,015 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 02:28:02,015 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:02,016 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 02:28:02,016 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 02:28:02,016 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 02:28:02,016 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 02:28:02,016 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:02,016 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 02:28:02,016 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 02:28:02,016 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 02:28:02,016 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 02:28:02,017 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 02:28:02,017 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 02:28:02,017 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 02:28:02,017 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 02:28:02,017 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 02:28:02,017 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 02:28:02,017 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:28:02,017 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 02:28:02,017 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 02:28:02,017 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 02:28:02,032 INFO Scoring terminé avec succès.
+2026-02-18 02:28:37,086 INFO --- LANCEMENT DU SCRIPT ---
+2026-02-18 02:28:37,089 ERROR Impossible d'ajouter la colonne Departement : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Departement TEXT'
+2026-02-18 02:28:37,089 INFO Ingestion des données CSV...
+2026-02-18 02:28:37,109 INFO Ingestion terminée : 25 lignes traitées.
+2026-02-18 02:28:37,110 INFO Analyse IA et Scoring...
+2026-02-18 02:28:37,110 INFO Démarrage de l'entraînement du modèle KNN...
+2026-02-18 02:28:37,122 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:37,122 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:28:37,122 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 02:28:37,122 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 02:28:37,122 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 02:28:37,123 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:37,123 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 02:28:37,123 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 02:28:37,123 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 02:28:37,123 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 02:28:37,123 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:37,123 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 02:28:37,123 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 02:28:37,123 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 02:28:37,123 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 02:28:37,123 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 02:28:37,124 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 02:28:37,124 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 02:28:37,124 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 02:28:37,124 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 02:28:37,124 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 02:28:37,124 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:28:37,124 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 02:28:37,124 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 02:28:37,124 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 02:28:37,124 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:37,125 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:28:37,125 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 02:28:37,125 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 02:28:37,125 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 02:28:37,125 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:37,125 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 02:28:37,125 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 02:28:37,125 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 02:28:37,125 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 02:28:37,125 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:37,125 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 02:28:37,126 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 02:28:37,126 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 02:28:37,126 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 02:28:37,126 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 02:28:37,126 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 02:28:37,126 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 02:28:37,126 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 02:28:37,126 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 02:28:37,126 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 02:28:37,126 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:28:37,126 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 02:28:37,127 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 02:28:37,127 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 02:28:37,127 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:37,127 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:28:37,127 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 02:28:37,127 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 02:28:37,127 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 02:28:37,127 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:37,127 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 02:28:37,127 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 02:28:37,128 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 02:28:37,128 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 02:28:37,128 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:37,128 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 02:28:37,128 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 02:28:37,129 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 02:28:37,129 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 02:28:37,129 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 02:28:37,129 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 02:28:37,129 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 02:28:37,129 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 02:28:37,129 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 02:28:37,130 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 02:28:37,130 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:28:37,130 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 02:28:37,130 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 02:28:37,130 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 02:28:37,144 INFO Scoring terminé avec succès.
+2026-02-18 02:28:51,487 INFO --- LANCEMENT DU SCRIPT ---
+2026-02-18 02:28:51,488 ERROR Impossible d'ajouter la colonne Departement : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Departement TEXT'
+2026-02-18 02:28:51,488 INFO Ingestion des données CSV...
+2026-02-18 02:28:51,504 INFO Ingestion terminée : 25 lignes traitées.
+2026-02-18 02:28:51,504 INFO Analyse IA et Scoring...
+2026-02-18 02:28:51,504 INFO Démarrage de l'entraînement du modèle KNN...
+2026-02-18 02:28:51,515 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:51,515 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:28:51,515 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 02:28:51,515 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 02:28:51,515 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 02:28:51,515 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:51,515 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 02:28:51,516 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 02:28:51,516 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 02:28:51,516 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 02:28:51,516 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:51,516 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 02:28:51,516 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 02:28:51,516 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 02:28:51,516 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 02:28:51,516 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 02:28:51,516 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 02:28:51,516 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 02:28:51,517 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 02:28:51,517 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 02:28:51,517 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 02:28:51,517 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:28:51,517 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 02:28:51,517 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 02:28:51,517 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 02:28:51,517 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:51,517 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:28:51,517 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 02:28:51,517 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 02:28:51,517 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 02:28:51,518 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:51,518 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 02:28:51,518 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 02:28:51,518 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 02:28:51,518 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 02:28:51,518 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:51,518 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 02:28:51,518 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 02:28:51,518 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 02:28:51,518 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 02:28:51,518 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 02:28:51,518 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 02:28:51,518 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 02:28:51,519 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 02:28:51,519 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 02:28:51,519 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 02:28:51,519 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:28:51,519 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 02:28:51,519 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 02:28:51,519 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 02:28:51,519 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:51,519 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:28:51,519 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 02:28:51,519 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 02:28:51,519 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 02:28:51,520 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:51,520 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 02:28:51,520 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 02:28:51,520 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 02:28:51,520 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 02:28:51,520 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:51,520 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 02:28:51,520 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 02:28:51,520 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 02:28:51,520 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 02:28:51,520 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 02:28:51,520 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 02:28:51,520 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 02:28:51,521 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 02:28:51,521 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 02:28:51,521 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 02:28:51,521 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:28:51,521 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 02:28:51,521 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 02:28:51,521 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 02:28:51,521 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:51,521 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:28:51,521 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 02:28:51,521 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 02:28:51,521 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 02:28:51,522 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:51,522 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 02:28:51,522 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 02:28:51,522 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 02:28:51,522 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 02:28:51,522 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:28:51,522 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 02:28:51,522 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 02:28:51,522 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 02:28:51,522 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 02:28:51,522 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 02:28:51,522 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 02:28:51,522 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 02:28:51,523 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 02:28:51,523 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 02:28:51,523 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 02:28:51,523 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:28:51,523 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 02:28:51,523 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 02:28:51,523 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 02:28:51,537 INFO Scoring terminé avec succès.
+2026-02-18 02:50:48,015 INFO --- LANCEMENT DU SCRIPT ---
+2026-02-18 02:50:48,055 ERROR Impossible d'ajouter la colonne Departement : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Departement TEXT'
+2026-02-18 02:50:48,056 INFO Ingestion des données CSV...
+2026-02-18 02:50:48,099 INFO Ingestion terminée : 25 lignes traitées.
+2026-02-18 02:50:48,099 INFO Analyse IA et Scoring...
+2026-02-18 02:50:48,099 INFO Démarrage de l'entraînement du modèle KNN...
+2026-02-18 02:50:48,150 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:50:48,150 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:50:48,151 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 02:50:48,151 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 02:50:48,151 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 02:50:48,151 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:50:48,151 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 02:50:48,151 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 02:50:48,151 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 02:50:48,152 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 02:50:48,152 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:50:48,152 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 02:50:48,152 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 02:50:48,152 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 02:50:48,152 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 02:50:48,152 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 02:50:48,152 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 02:50:48,153 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 02:50:48,153 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 02:50:48,153 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 02:50:48,153 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 02:50:48,153 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:50:48,153 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 02:50:48,153 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 02:50:48,153 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 02:50:48,154 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:50:48,154 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:50:48,154 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 02:50:48,154 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 02:50:48,154 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 02:50:48,154 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:50:48,154 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 02:50:48,155 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 02:50:48,155 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 02:50:48,155 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 02:50:48,155 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:50:48,155 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 02:50:48,155 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 02:50:48,155 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 02:50:48,155 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 02:50:48,155 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 02:50:48,156 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 02:50:48,156 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 02:50:48,156 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 02:50:48,156 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 02:50:48,156 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 02:50:48,156 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:50:48,156 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 02:50:48,156 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 02:50:48,157 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 02:50:48,157 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:50:48,169 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:50:48,170 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 02:50:48,170 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 02:50:48,170 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 02:50:48,170 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:50:48,171 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 02:50:48,171 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 02:50:48,171 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 02:50:48,171 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 02:50:48,171 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:50:48,171 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 02:50:48,171 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 02:50:48,172 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 02:50:48,172 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 02:50:48,172 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 02:50:48,172 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 02:50:48,172 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 02:50:48,172 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 02:50:48,173 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 02:50:48,173 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 02:50:48,173 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:50:48,173 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 02:50:48,173 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 02:50:48,174 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 02:50:48,175 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:50:48,175 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:50:48,175 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 02:50:48,175 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 02:50:48,176 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 02:50:48,176 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:50:48,177 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 02:50:48,177 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 02:50:48,177 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 02:50:48,177 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 02:50:48,178 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:50:48,179 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 02:50:48,179 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 02:50:48,179 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 02:50:48,179 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 02:50:48,179 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 02:50:48,179 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 02:50:48,180 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 02:50:48,180 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 02:50:48,180 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 02:50:48,180 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 02:50:48,180 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:50:48,180 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 02:50:48,180 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 02:50:48,181 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 02:50:48,181 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:50:48,181 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:50:48,181 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 02:50:48,181 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 02:50:48,181 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 02:50:48,182 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:50:48,182 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 02:50:48,182 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 02:50:48,182 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 02:50:48,182 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 02:50:48,182 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:50:48,183 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 02:50:48,183 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 02:50:48,183 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 02:50:48,183 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 02:50:48,183 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 02:50:48,183 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 02:50:48,184 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 02:50:48,184 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 02:50:48,184 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 02:50:48,184 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 02:50:48,185 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:50:48,185 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 02:50:48,185 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 02:50:48,185 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 02:50:48,366 INFO Scoring terminé avec succès.
+2026-02-18 02:51:14,843 INFO --- LANCEMENT DU SCRIPT ---
+2026-02-18 02:51:14,854 ERROR Impossible d'ajouter la colonne Departement : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Departement TEXT'
+2026-02-18 02:51:14,855 INFO Ingestion des données CSV...
+2026-02-18 02:51:14,893 INFO Ingestion terminée : 25 lignes traitées.
+2026-02-18 02:51:14,893 INFO Analyse IA et Scoring...
+2026-02-18 02:51:14,893 INFO Démarrage de l'entraînement du modèle KNN...
+2026-02-18 02:51:14,934 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:51:14,934 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:51:14,934 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 02:51:14,935 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 02:51:14,935 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 02:51:14,935 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:51:14,935 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 02:51:14,935 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 02:51:14,936 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 02:51:14,936 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 02:51:14,936 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:51:14,936 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 02:51:14,937 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 02:51:14,937 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 02:51:14,937 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 02:51:14,937 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 02:51:14,937 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 02:51:14,937 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 02:51:14,938 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 02:51:14,938 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 02:51:14,938 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 02:51:14,938 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:51:14,938 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 02:51:14,939 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 02:51:14,939 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 02:51:14,939 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:51:14,940 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:51:14,940 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 02:51:14,941 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 02:51:14,941 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 02:51:14,941 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:51:14,941 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 02:51:14,942 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 02:51:14,942 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 02:51:14,942 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 02:51:14,942 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:51:14,942 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 02:51:14,942 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 02:51:14,943 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 02:51:14,943 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 02:51:14,943 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 02:51:14,943 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 02:51:14,943 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 02:51:14,943 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 02:51:14,943 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 02:51:14,943 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 02:51:14,944 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:51:14,944 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 02:51:14,944 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 02:51:14,944 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 02:51:14,944 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:51:14,944 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:51:14,944 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 02:51:14,945 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 02:51:14,945 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 02:51:14,945 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:51:14,945 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 02:51:14,945 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 02:51:14,946 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 02:51:14,946 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 02:51:14,946 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:51:14,946 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 02:51:14,946 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 02:51:14,946 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 02:51:14,947 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 02:51:14,947 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 02:51:14,947 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 02:51:14,947 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 02:51:14,947 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 02:51:14,947 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 02:51:14,948 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 02:51:14,948 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:51:14,948 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 02:51:14,948 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 02:51:14,948 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 02:51:14,948 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:51:14,948 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:51:14,949 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 02:51:14,949 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 02:51:14,949 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 02:51:14,949 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:51:14,949 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 02:51:14,949 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 02:51:14,949 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 02:51:14,950 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 02:51:14,950 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:51:14,950 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 02:51:14,950 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 02:51:14,950 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 02:51:14,950 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 02:51:14,950 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 02:51:14,951 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 02:51:14,951 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 02:51:14,951 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 02:51:14,951 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 02:51:14,951 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 02:51:14,951 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:51:14,951 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 02:51:14,952 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 02:51:14,952 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 02:51:14,952 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:51:14,952 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:51:14,952 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 02:51:14,952 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 02:51:14,952 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 02:51:14,953 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:51:14,953 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 02:51:14,953 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 02:51:14,954 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 02:51:14,954 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 02:51:14,954 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:51:14,955 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 02:51:14,955 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 02:51:14,955 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 02:51:14,955 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 02:51:14,955 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 02:51:14,956 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 02:51:14,957 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 02:51:14,957 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 02:51:14,957 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 02:51:14,958 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 02:51:14,958 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:51:14,958 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 02:51:14,958 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 02:51:14,958 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 02:51:14,958 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:51:14,959 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:51:14,959 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 02:51:14,959 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 02:51:14,959 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 02:51:14,959 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:51:14,960 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 02:51:14,960 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 02:51:14,960 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 02:51:14,960 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 02:51:14,960 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:51:14,960 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 02:51:14,960 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 02:51:14,961 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 02:51:14,961 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 02:51:14,961 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 02:51:14,961 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 02:51:14,961 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 02:51:14,961 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 02:51:14,961 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 02:51:14,962 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 02:51:14,962 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:51:14,962 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 02:51:14,962 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 02:51:14,962 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 02:51:15,030 INFO Scoring terminé avec succès.
+2026-02-18 02:52:42,026 INFO --- LANCEMENT DU SCRIPT ---
+2026-02-18 02:52:42,062 ERROR Impossible d'ajouter la colonne Departement : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Departement TEXT'
+2026-02-18 02:52:42,062 INFO Ingestion des données CSV...
+2026-02-18 02:52:42,110 INFO Ingestion terminée : 25 lignes traitées.
+2026-02-18 02:52:42,110 INFO Analyse IA et Scoring...
+2026-02-18 02:52:42,111 INFO Démarrage de l'entraînement du modèle KNN...
+2026-02-18 02:52:42,161 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:52:42,162 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:52:42,162 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 02:52:42,162 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 02:52:42,162 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 02:52:42,162 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:52:42,162 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 02:52:42,162 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 02:52:42,163 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 02:52:42,163 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 02:52:42,163 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:52:42,163 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 02:52:42,164 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 02:52:42,164 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 02:52:42,164 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 02:52:42,164 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 02:52:42,164 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 02:52:42,164 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 02:52:42,165 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 02:52:42,165 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 02:52:42,165 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 02:52:42,165 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:52:42,165 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 02:52:42,165 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 02:52:42,166 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 02:52:42,284 INFO Scoring terminé avec succès.
+2026-02-18 02:53:11,178 INFO --- LANCEMENT DU SCRIPT ---
+2026-02-18 02:53:11,188 ERROR Impossible d'ajouter la colonne Departement : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Departement TEXT'
+2026-02-18 02:53:11,188 INFO Ingestion des données CSV...
+2026-02-18 02:53:11,227 INFO Ingestion terminée : 25 lignes traitées.
+2026-02-18 02:53:11,228 INFO Analyse IA et Scoring...
+2026-02-18 02:53:11,228 INFO Démarrage de l'entraînement du modèle KNN...
+2026-02-18 02:53:11,256 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:53:11,256 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:53:11,256 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 02:53:11,256 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 02:53:11,256 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 02:53:11,256 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:53:11,256 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 02:53:11,256 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 02:53:11,257 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 02:53:11,257 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 02:53:11,257 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:53:11,257 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 02:53:11,257 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 02:53:11,257 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 02:53:11,257 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 02:53:11,257 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 02:53:11,257 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 02:53:11,258 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 02:53:11,258 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 02:53:11,258 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 02:53:11,258 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 02:53:11,258 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:53:11,258 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 02:53:11,258 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 02:53:11,258 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 02:53:11,259 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:53:11,259 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:53:11,259 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 02:53:11,259 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 02:53:11,259 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 02:53:11,259 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:53:11,259 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 02:53:11,259 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 02:53:11,260 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 02:53:11,260 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 02:53:11,260 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 02:53:11,260 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 02:53:11,260 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 02:53:11,260 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 02:53:11,260 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 02:53:11,260 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 02:53:11,260 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 02:53:11,260 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 02:53:11,261 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 02:53:11,261 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 02:53:11,261 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 02:53:11,261 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 02:53:11,261 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 02:53:11,261 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 02:53:11,261 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 02:53:11,301 INFO Scoring terminé avec succès.
+2026-02-18 03:00:14,380 INFO --- LANCEMENT DU SCRIPT ---
+2026-02-18 03:00:14,392 ERROR Impossible d'ajouter la colonne Departement : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Departement TEXT'
+2026-02-18 03:00:14,392 INFO Ingestion des données CSV...
+2026-02-18 03:00:14,426 INFO Ingestion terminée : 25 lignes traitées.
+2026-02-18 03:00:14,426 INFO Analyse IA et Scoring...
+2026-02-18 03:00:14,426 INFO Démarrage de l'entraînement du modèle KNN...
+2026-02-18 03:00:14,455 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 03:00:14,455 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 03:00:14,456 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 03:00:14,456 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 03:00:14,456 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 03:00:14,456 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 03:00:14,456 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 03:00:14,456 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 03:00:14,457 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 03:00:14,457 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 03:00:14,457 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 03:00:14,457 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 03:00:14,457 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 03:00:14,457 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 03:00:14,457 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 03:00:14,457 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 03:00:14,457 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 03:00:14,458 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 03:00:14,458 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 03:00:14,458 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 03:00:14,458 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 03:00:14,458 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 03:00:14,458 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 03:00:14,458 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 03:00:14,458 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 03:00:14,458 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 03:00:14,458 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 03:00:14,459 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 03:00:14,459 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 03:00:14,459 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 03:00:14,459 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 03:00:14,459 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 03:00:14,459 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 03:00:14,459 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 03:00:14,459 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 03:00:14,459 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 03:00:14,460 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 03:00:14,460 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 03:00:14,460 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 03:00:14,460 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 03:00:14,460 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 03:00:14,460 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 03:00:14,460 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 03:00:14,460 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 03:00:14,460 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 03:00:14,461 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 03:00:14,461 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 03:00:14,461 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 03:00:14,461 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 03:00:14,461 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 03:00:14,461 INFO Score calculé pour Dell OptiPlex 7090 (dept My_Global_Services) : 3.7/5
+2026-02-18 03:00:14,461 INFO Score calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 03:00:14,461 INFO Score calculé pour Lenovo ThinkCentre M75s (dept Information System) : 2.5/5
+2026-02-18 03:00:14,461 INFO Score calculé pour Dell Precision 3650 (dept Communication / Marketing) : 1.3/5
+2026-02-18 03:00:14,462 INFO Score calculé pour HP ProDesk 600 G7 (dept Communication / Marketing) : 4.3/5
+2026-02-18 03:00:14,462 INFO Score calculé pour Fujitsu Esprimo P758 (dept My_Global_Services) : 3.7/5
+2026-02-18 03:00:14,462 INFO Score calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary) : 2.2/5
+2026-02-18 03:00:14,462 INFO Score calculé pour Dell OptiPlex 3080 (dept Information System) : 2.2/5
+2026-02-18 03:00:14,462 INFO Score calculé pour HP Z2 Mini G5 (dept Communication / Marketing) : 4.2/5
+2026-02-18 03:00:14,462 INFO Score calculé pour Bull Evoquer Basic (dept Communication / Marketing) : 4.0/5
+2026-02-18 03:00:14,462 INFO Score calculé pour Dell OptiPlex 5070 (dept My_Global_Services) : 3.7/5
+2026-02-18 03:00:14,462 INFO Score calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary) : 2.3/5
+2026-02-18 03:00:14,462 INFO Score calculé pour HP EliteDesk 800 G5 (dept Information System) : 3.2/5
+2026-02-18 03:00:14,462 INFO Score calculé pour Dell Precision 5820 (dept Communication / Marketing) : 2.0/5
+2026-02-18 03:00:14,463 INFO Score calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing) : 3.3/5
+2026-02-18 03:00:14,463 INFO Score calculé pour Fujitsu Celcius M740 (dept My_Global_Services) : 1.3/5
+2026-02-18 03:00:14,463 INFO Score calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary) : 3.2/5
+2026-02-18 03:00:14,463 INFO Score calculé pour Dell Vostro 3681 (dept Information System) : 3.2/5
+2026-02-18 03:00:14,463 INFO Score calculé pour Bull Evoquer Premium (dept Communication / Marketing) : 2.5/5
+2026-02-18 03:00:14,463 INFO Score calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing) : 2.8/5
+2026-02-18 03:00:14,463 INFO Score calculé pour HP Z4 G4 (dept My_Global_Services) : 2.8/5
+2026-02-18 03:00:14,463 INFO Score calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary) : 3.5/5
+2026-02-18 03:00:14,463 INFO Score calculé pour Fujitsu Esprimo Q958 (dept Information System) : 3.8/5
+2026-02-18 03:00:14,463 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
+2026-02-18 03:00:14,464 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
+2026-02-18 03:00:14,501 INFO Scoring terminé avec succès.

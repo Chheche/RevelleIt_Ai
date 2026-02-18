@@ -18,7 +18,8 @@ logging.basicConfig(
 
 engine = create_engine('sqlite:///revelleit.db')
 Session = sessionmaker(bind=engine)
-session = Session()
+# session will be instantiated after schema adjustments inside __main__
+session = None
 
 
 def calculer_impact_total(row):
@@ -53,13 +54,18 @@ def calculer_impact_total(row):
 
 
 def train_knn_benchmark():
-    """ Entraîne l'IA sur les 6 KPIs et calcule les moyennes de référence """
+    """ Entraîne l'IA sur les 6 KPIs et calcule les moyennes de référence.
+
+    Le benchmark est construit globalement et par département :
+    - stats_global : moyenne/min/max pour l'ensemble des PC
+    - stats_dept   : moyenne pour chaque département (index = département, colonnes = kpis)
+    """
     logging.info("Démarrage de l'entraînement du modèle KNN...")
     data = pd.read_sql('SELECT * FROM impacts_calcules', con=engine)
 
     if len(data) < 3:
         logging.warning(f"Données insuffisantes ({len(data)}) pour entraîner le KNN.")
-        return None, None
+        return None, None, None
 
     # Apprendre sur les 6 KPIs
     kpis = ['GWP', 'ADPe', 'WU', 'ADPf', 'TPE', 'WEEE']
@@ -69,8 +75,10 @@ def train_knn_benchmark():
     knn = KNeighborsRegressor(n_neighbors=min(3, len(data)))
     knn.fit(X, y)
 
-    stats = data[kpis].agg(['mean', 'min', 'max'])
-    return knn, stats
+    stats_global = data[kpis].agg(['mean', 'min', 'max'])
+    # moyenne par département (sert pour scorer par secteur)
+    stats_dept = data.groupby('Departement')[kpis].mean()
+    return knn, stats_global, stats_dept
 
 
 def completer_impacts_par_knn(impacts, row, knn_model):
@@ -90,11 +98,20 @@ def completer_impacts_par_knn(impacts, row, knn_model):
     return impacts
 
 
-def calculer_score_final_complet(impacts, stats_benchmark):
-    """ Moyenne des notes 1-5 sur les 6 KPIs """
+def calculer_score_final_complet(impacts, stats_benchmark_mean):
+    """Moyenne des notes 1-5 sur les 6 KPIs using a benchmark mean row.
+
+    stats_benchmark_mean doit être une série contenant la ligne 'mean' ou
+    directement les valeurs moyennes par KPI (selon utilisation).
+    """
     notes = []
     for kpi in ['GWP', 'ADPe', 'WU', 'ADPf', 'TPE', 'WEEE']:
-        ratio = impacts[kpi] / stats_benchmark.loc['mean', kpi]
+        mean_val = stats_benchmark_mean[kpi]
+        # éviter division par zéro
+        if mean_val <= 0 or pd.isna(mean_val):
+            ratio = float('inf')
+        else:
+            ratio = impacts[kpi] / mean_val
         if ratio <= 0.7:
             note = 5
         elif ratio <= 0.9:
@@ -113,6 +130,24 @@ if __name__ == '__main__':
     logging.info("--- LANCEMENT DU SCRIPT ---")
     Base.metadata.create_all(engine)
 
+    # s'assurer que la colonne Departement existe (si base déjà créée auparavant)
+    with engine.begin() as conn_check:  # begin() ouvre transaction et commit automatiquement
+        # vérifier la structure actuelle de la table
+        try:
+            result = conn_check.execute("PRAGMA table_info(impacts_calcules)")
+            cols = [row[1] for row in result.fetchall()]
+        except Exception:
+            cols = []
+        if 'Departement' not in cols:
+            try:
+                conn_check.execute('ALTER TABLE impacts_calcules ADD COLUMN Departement TEXT')
+                logging.info("Colonne Departement ajoutée à la base.")
+            except Exception as e:
+                logging.error(f"Impossible d'ajouter la colonne Departement : {e}")
+
+    # créer la session après modification de la table pour que l'ORM soit synchronisé
+    session = Session()
+
     """ Ingestion et Calcul Physique """
     logging.info("Ingestion des données CSV...")
     df_raw = pd.read_csv('data/list_desktop.csv', sep=';', encoding='utf-8')
@@ -121,17 +156,17 @@ if __name__ == '__main__':
         new_entry = DesktopImpact(
             Marque=row['Marque'], Modele=row['Modele'],
             Nb_Coeurs=row['Nb_Coeurs'], RAM_Go=row['RAM_Go'], Stockage_Go=row['Stockage_Go'],
+            Departement=row.get('Departement', None),
             **impacts
         )
         session.add(new_entry)
     session.commit()
     logging.info(f"Ingestion terminée : {len(df_raw)} lignes traitées.")
-
     """ IA et Scoring """
     logging.info("Analyse IA et Scoring...")
-    knn_model, stats_ref = train_knn_benchmark()
+    knn_model, stats_global, stats_dept = train_knn_benchmark()
 
-    if stats_ref is not None:
+    if stats_global is not None:
         tous_les_pcs = session.query(DesktopImpact).all()
         for pc in tous_les_pcs:
 
@@ -140,12 +175,48 @@ if __name__ == '__main__':
             impacts_dict = completer_impacts_par_knn(impacts_dict, pc, knn_model)
 
             for k, v in impacts_dict.items(): setattr(pc, k, v)
-            pc.Score_Final = calculer_score_final_complet(impacts_dict, stats_ref)
-            logging.info(f"Score calculé pour {pc.Marque} {pc.Modele} : {pc.Score_Final}/5")
+            # choisir les statistiques selon le département si disponible
+            if pc.Departement and pc.Departement in stats_dept.index:
+                bench_means = stats_dept.loc[pc.Departement]
+            else:
+                bench_means = stats_global.loc['mean']
+            pc.Score_Final = calculer_score_final_complet(impacts_dict, bench_means)
+            logging.info(f"Score calculé pour {pc.Marque} {pc.Modele} (dept {pc.Departement}) : {pc.Score_Final}/5")
 
         session.commit()
+        
+        # Afficher tous les desktops classés par score
+        print("\n" + "="*120)
+        print("TABLEAU DE TOUS LES ÉQUIPEMENTS CLASSÉS PAR SCORE")
+        print("="*120)
+        df_desktops = pd.read_sql("""
+            SELECT Marque, Modele, Departement, Score_Final, GWP, ADPe, WU, ADPf, TPE, WEEE
+            FROM impacts_calcules
+            ORDER BY Score_Final DESC
+        """, con=engine)
+        
+        # Formatage pour meilleure lisibilité
+        pd.set_option('display.max_columns', None)
+        pd.set_option('display.max_rows', None)
+        pd.set_option('display.width', None)
+        pd.set_option('display.max_colwidth', None)
+        print(df_desktops.to_string(index=False))
+        
+        # afficher score moyen par département
+        print("\n" + "="*120)
+        print("SCORE MOYEN PAR DÉPARTEMENT")
+        print("="*120)
+        df_scores = pd.read_sql("""
+            SELECT Departement, AVG(Score_Final) as Score_Moyen, COUNT(*) as Nb_Equipements
+            FROM impacts_calcules
+            GROUP BY Departement
+            ORDER BY Score_Moyen DESC
+        """, con=engine)
+        print(df_scores.to_string(index=False))
+        print("="*120)
+        
         logging.info("Scoring terminé avec succès.")
-        print("Audit réussi : Ingestion, Imputation IA et Scoring terminés.")
+        print("\nAudit réussi : Ingestion, Imputation IA et Scoring terminés.")
     else:
         logging.warning("Audit partiel : Impossible de générer le benchmark (données insuffisantes).")
         print("Ingestion finie, mais pas assez de données pour le benchmark/IA.")
