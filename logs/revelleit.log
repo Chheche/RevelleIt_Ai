@@ -1164,3 +1164,909 @@
 2026-02-18 03:00:14,463 INFO Score calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing) : 3.8/5
 2026-02-18 03:00:14,464 INFO Score calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing) : 3.0/5
 2026-02-18 03:00:14,501 INFO Scoring terminé avec succès.
+2026-02-25 02:31:53,324 INFO --- LANCEMENT DU SCRIPT ---
+2026-02-25 02:31:53,327 ERROR Impossible d'ajouter la colonne Departement : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Departement TEXT'
+2026-02-25 02:31:53,327 ERROR Impossible d'ajouter la colonne Green_IT_Score : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Green_IT_Score FLOAT'
+2026-02-25 02:31:53,327 ERROR Impossible d'ajouter la colonne Score_GWP : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Score_GWP FLOAT'
+2026-02-25 02:31:53,327 ERROR Impossible d'ajouter la colonne Score_ADPe : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Score_ADPe FLOAT'
+2026-02-25 02:31:53,327 ERROR Impossible d'ajouter la colonne Score_WU : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Score_WU FLOAT'
+2026-02-25 02:31:53,327 ERROR Impossible d'ajouter la colonne Score_ADPf : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Score_ADPf FLOAT'
+2026-02-25 02:31:53,327 ERROR Impossible d'ajouter la colonne Score_TPE : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Score_TPE FLOAT'
+2026-02-25 02:31:53,327 ERROR Impossible d'ajouter la colonne Score_WEEE : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Score_WEEE FLOAT'
+2026-02-25 02:31:53,327 INFO Ingestion des données CSV...
+2026-02-25 02:33:31,213 INFO --- LANCEMENT DU SCRIPT ---
+2026-02-25 02:33:31,214 ERROR Impossible d'ajouter la colonne Departement : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Departement TEXT'
+2026-02-25 02:33:31,214 ERROR Impossible d'ajouter la colonne Green_IT_Score : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Green_IT_Score FLOAT'
+2026-02-25 02:33:31,214 ERROR Impossible d'ajouter la colonne Score_GWP : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Score_GWP FLOAT'
+2026-02-25 02:33:31,214 ERROR Impossible d'ajouter la colonne Score_ADPe : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Score_ADPe FLOAT'
+2026-02-25 02:33:31,214 ERROR Impossible d'ajouter la colonne Score_WU : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Score_WU FLOAT'
+2026-02-25 02:33:31,214 ERROR Impossible d'ajouter la colonne Score_ADPf : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Score_ADPf FLOAT'
+2026-02-25 02:33:31,214 ERROR Impossible d'ajouter la colonne Score_TPE : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Score_TPE FLOAT'
+2026-02-25 02:33:31,214 ERROR Impossible d'ajouter la colonne Score_WEEE : Not an executable object: 'ALTER TABLE impacts_calcules ADD COLUMN Score_WEEE FLOAT'
+2026-02-25 02:33:31,214 INFO Ingestion des données CSV...
+2026-02-25 02:40:56,836 INFO --- LANCEMENT DU SCRIPT ---
+2026-02-25 02:40:56,838 ERROR Impossible d'ajouter la colonne Departement : (sqlite3.OperationalError) duplicate column name: Departement
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Departement TEXT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 02:40:56,845 INFO Colonne Green_IT_Score ajoutée à la base.
+2026-02-25 02:40:56,850 INFO Colonne Score_GWP ajoutée à la base.
+2026-02-25 02:40:56,855 INFO Colonne Score_ADPe ajoutée à la base.
+2026-02-25 02:40:56,859 INFO Colonne Score_WU ajoutée à la base.
+2026-02-25 02:40:56,863 INFO Colonne Score_ADPf ajoutée à la base.
+2026-02-25 02:40:56,867 INFO Colonne Score_TPE ajoutée à la base.
+2026-02-25 02:40:56,873 INFO Colonne Score_WEEE ajoutée à la base.
+2026-02-25 02:40:56,874 INFO Ingestion des données CSV...
+2026-02-25 02:40:56,890 INFO Ingestion terminée : 25 lignes traitées.
+2026-02-25 02:40:56,890 INFO Analyse IA et Scoring...
+2026-02-25 02:40:56,890 INFO Démarrage de l'entraînement du modèle KNN...
+2026-02-25 02:40:56,919 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,919 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,919 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI scores {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,919 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI scores {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:40:56,920 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI scores {'GWP': 5, 'ADPe': 5, 'WU': 4, 'ADPf': 5, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,920 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,920 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:40:56,920 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:40:56,920 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI scores {'GWP': 5, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 5, 'WEEE': 3}
+2026-02-25 02:40:56,920 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 5, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,921 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,921 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:40:56,921 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,921 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI scores {'GWP': 1, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:40:56,921 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 3, 'WU': 3, 'ADPf': 4, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,921 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI scores {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:40:56,922 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI scores {'GWP': 4, 'ADPe': 2, 'WU': 4, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,922 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,922 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI scores {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,923 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI scores {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:40:56,923 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI scores {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:40:56,923 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,923 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,923 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,923 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 3, 'WU': 2, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,923 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,923 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,924 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI scores {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,924 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI scores {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:40:56,924 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI scores {'GWP': 5, 'ADPe': 5, 'WU': 4, 'ADPf': 5, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,924 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,924 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:40:56,924 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:40:56,924 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI scores {'GWP': 5, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 5, 'WEEE': 3}
+2026-02-25 02:40:56,924 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 5, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,924 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,925 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:40:56,925 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,925 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI scores {'GWP': 1, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:40:56,925 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 3, 'WU': 3, 'ADPf': 4, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,925 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI scores {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:40:56,925 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI scores {'GWP': 4, 'ADPe': 2, 'WU': 4, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,925 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,925 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI scores {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,925 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI scores {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:40:56,925 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI scores {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:40:56,926 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,926 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,926 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,926 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 3, 'WU': 2, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,926 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,926 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,926 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI scores {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,926 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI scores {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:40:56,926 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI scores {'GWP': 5, 'ADPe': 5, 'WU': 4, 'ADPf': 5, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,926 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,926 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:40:56,927 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:40:56,927 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI scores {'GWP': 5, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 5, 'WEEE': 3}
+2026-02-25 02:40:56,927 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 5, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,927 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,927 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:40:56,927 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,927 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI scores {'GWP': 1, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:40:56,927 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 3, 'WU': 3, 'ADPf': 4, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,927 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI scores {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:40:56,927 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI scores {'GWP': 4, 'ADPe': 2, 'WU': 4, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,928 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,928 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI scores {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,928 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI scores {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:40:56,928 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI scores {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:40:56,928 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,928 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,928 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,928 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 3, 'WU': 2, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,928 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,928 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,928 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI scores {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,928 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI scores {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:40:56,929 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI scores {'GWP': 5, 'ADPe': 5, 'WU': 4, 'ADPf': 5, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,929 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,929 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:40:56,929 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:40:56,929 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI scores {'GWP': 5, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 5, 'WEEE': 3}
+2026-02-25 02:40:56,929 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 5, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,929 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,929 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:40:56,929 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,929 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI scores {'GWP': 1, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:40:56,929 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 3, 'WU': 3, 'ADPf': 4, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,930 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI scores {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:40:56,930 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI scores {'GWP': 4, 'ADPe': 2, 'WU': 4, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,930 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,930 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI scores {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,930 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI scores {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:40:56,930 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI scores {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:40:56,930 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,930 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,930 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:40:56,930 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 3, 'WU': 2, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:40:56,978 INFO Scoring terminé avec succès.
+2026-02-25 02:43:08,828 INFO --- LANCEMENT DU SCRIPT ---
+2026-02-25 02:43:08,830 ERROR Impossible d'ajouter la colonne Departement : (sqlite3.OperationalError) duplicate column name: Departement
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Departement TEXT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 02:43:08,830 ERROR Impossible d'ajouter la colonne Green_IT_Score : (sqlite3.OperationalError) duplicate column name: Green_IT_Score
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Green_IT_Score FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 02:43:08,830 ERROR Impossible d'ajouter la colonne Score_GWP : (sqlite3.OperationalError) duplicate column name: Score_GWP
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Score_GWP FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 02:43:08,830 ERROR Impossible d'ajouter la colonne Score_ADPe : (sqlite3.OperationalError) duplicate column name: Score_ADPe
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Score_ADPe FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 02:43:08,830 ERROR Impossible d'ajouter la colonne Score_WU : (sqlite3.OperationalError) duplicate column name: Score_WU
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Score_WU FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 02:43:08,830 ERROR Impossible d'ajouter la colonne Score_ADPf : (sqlite3.OperationalError) duplicate column name: Score_ADPf
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Score_ADPf FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 02:43:08,830 ERROR Impossible d'ajouter la colonne Score_TPE : (sqlite3.OperationalError) duplicate column name: Score_TPE
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Score_TPE FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 02:43:08,831 ERROR Impossible d'ajouter la colonne Score_WEEE : (sqlite3.OperationalError) duplicate column name: Score_WEEE
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Score_WEEE FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 02:43:08,831 INFO Ingestion des données CSV...
+2026-02-25 02:43:08,847 INFO Ingestion terminée : 25 lignes traitées.
+2026-02-25 02:43:08,847 INFO Analyse IA et Scoring...
+2026-02-25 02:43:08,847 INFO Démarrage de l'entraînement du modèle KNN...
+2026-02-25 02:43:08,859 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,860 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,860 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI scores {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,860 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI scores {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:43:08,860 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI scores {'GWP': 5, 'ADPe': 5, 'WU': 4, 'ADPf': 5, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,860 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,860 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:43:08,860 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:43:08,860 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI scores {'GWP': 5, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 5, 'WEEE': 3}
+2026-02-25 02:43:08,860 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 5, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,861 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,861 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:43:08,861 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,861 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI scores {'GWP': 1, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:43:08,861 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 3, 'WU': 3, 'ADPf': 4, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,861 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI scores {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:43:08,861 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI scores {'GWP': 4, 'ADPe': 2, 'WU': 4, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,861 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,861 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI scores {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,861 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI scores {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:43:08,861 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI scores {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:43:08,862 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,862 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,862 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,862 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 3, 'WU': 2, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,862 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,862 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,862 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI scores {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,862 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI scores {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:43:08,862 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI scores {'GWP': 5, 'ADPe': 5, 'WU': 4, 'ADPf': 5, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,862 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,862 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:43:08,863 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:43:08,863 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI scores {'GWP': 5, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 5, 'WEEE': 3}
+2026-02-25 02:43:08,863 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 5, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,863 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,863 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:43:08,863 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,863 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI scores {'GWP': 1, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:43:08,863 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 3, 'WU': 3, 'ADPf': 4, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,863 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI scores {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:43:08,863 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI scores {'GWP': 4, 'ADPe': 2, 'WU': 4, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,863 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,863 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI scores {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,864 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI scores {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:43:08,864 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI scores {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:43:08,864 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,864 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,864 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,864 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 3, 'WU': 2, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,864 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,864 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,864 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI scores {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,865 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI scores {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:43:08,865 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI scores {'GWP': 5, 'ADPe': 5, 'WU': 4, 'ADPf': 5, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,865 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,865 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:43:08,865 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:43:08,865 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI scores {'GWP': 5, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 5, 'WEEE': 3}
+2026-02-25 02:43:08,865 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 5, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,865 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,866 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:43:08,866 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,866 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI scores {'GWP': 1, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:43:08,866 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 3, 'WU': 3, 'ADPf': 4, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,866 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI scores {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:43:08,866 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI scores {'GWP': 4, 'ADPe': 2, 'WU': 4, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,866 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,866 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI scores {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,867 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI scores {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:43:08,867 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI scores {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:43:08,867 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,867 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,867 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,867 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 3, 'WU': 2, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,867 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,867 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,867 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI scores {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,867 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI scores {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:43:08,867 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI scores {'GWP': 5, 'ADPe': 5, 'WU': 4, 'ADPf': 5, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,867 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,868 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:43:08,868 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:43:08,868 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI scores {'GWP': 5, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 5, 'WEEE': 3}
+2026-02-25 02:43:08,868 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 5, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,868 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,868 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:43:08,868 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,868 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI scores {'GWP': 1, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:43:08,868 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 3, 'WU': 3, 'ADPf': 4, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,868 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI scores {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:43:08,868 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI scores {'GWP': 4, 'ADPe': 2, 'WU': 4, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,868 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,869 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI scores {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,869 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI scores {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:43:08,869 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI scores {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:43:08,869 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,869 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,869 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,869 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 3, 'WU': 2, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,869 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,869 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,869 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI scores {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,869 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI scores {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:43:08,870 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI scores {'GWP': 5, 'ADPe': 5, 'WU': 4, 'ADPf': 5, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,870 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,870 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:43:08,870 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:43:08,870 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI scores {'GWP': 5, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 5, 'WEEE': 3}
+2026-02-25 02:43:08,870 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 5, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,870 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,870 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI scores {'GWP': 2, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:43:08,871 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,871 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI scores {'GWP': 1, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:43:08,871 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 3, 'WU': 3, 'ADPf': 4, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,871 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI scores {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 02:43:08,871 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI scores {'GWP': 4, 'ADPe': 2, 'WU': 4, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,871 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,871 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI scores {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,871 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI scores {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:43:08,871 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI scores {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 02:43:08,871 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI scores {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,871 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,872 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 02:43:08,872 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI scores {'GWP': 4, 'ADPe': 3, 'WU': 2, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 02:43:08,924 INFO Scoring terminé avec succès.
+2026-02-25 03:30:25,332 INFO --- LANCEMENT DU SCRIPT ---
+2026-02-25 03:30:25,333 ERROR Impossible d'ajouter la colonne Departement : (sqlite3.OperationalError) duplicate column name: Departement
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Departement TEXT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 03:30:25,334 ERROR Impossible d'ajouter la colonne Green_IT_Score : (sqlite3.OperationalError) duplicate column name: Green_IT_Score
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Green_IT_Score FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 03:30:25,334 ERROR Impossible d'ajouter la colonne Score_GWP : (sqlite3.OperationalError) duplicate column name: Score_GWP
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Score_GWP FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 03:30:25,334 ERROR Impossible d'ajouter la colonne Score_ADPe : (sqlite3.OperationalError) duplicate column name: Score_ADPe
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Score_ADPe FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 03:30:25,334 ERROR Impossible d'ajouter la colonne Score_WU : (sqlite3.OperationalError) duplicate column name: Score_WU
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Score_WU FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 03:30:25,334 ERROR Impossible d'ajouter la colonne Score_ADPf : (sqlite3.OperationalError) duplicate column name: Score_ADPf
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Score_ADPf FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 03:30:25,334 ERROR Impossible d'ajouter la colonne Score_TPE : (sqlite3.OperationalError) duplicate column name: Score_TPE
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Score_TPE FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 03:30:25,335 ERROR Impossible d'ajouter la colonne Score_WEEE : (sqlite3.OperationalError) duplicate column name: Score_WEEE
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Score_WEEE FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 03:30:25,335 INFO Ingestion des données CSV...
+2026-02-25 03:30:25,359 INFO Ingestion terminée : 25 lignes traitées.
+2026-02-25 03:30:25,360 INFO Analyse IA et Scoring...
+2026-02-25 03:30:25,360 INFO Démarrage de l'entraînement du modèle KNN...
+2026-02-25 03:30:25,384 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI pondérés {'GWP': 0.91, 'ADPe': 0.91, 'WU': 0.68, 'ADPf': 0.91, 'TPE': 0.91, 'WEEE': 0.68}
+2026-02-25 03:30:25,384 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 0.71, 'ADPe': 0.95, 'WU': 0.71, 'ADPf': 0.95, 'TPE': 0.95, 'WEEE': 0.71}
+2026-02-25 03:30:25,384 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI pondérés {'GWP': 1.0, 'ADPe': 0.67, 'WU': 0.67, 'ADPf': 0.67, 'TPE': 1.0, 'WEEE': 1.0}
+2026-02-25 03:30:25,384 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI pondérés {'GWP': 0.62, 'ADPe': 0.62, 'WU': 0.62, 'ADPf': 0.62, 'TPE': 0.62, 'WEEE': 1.88}
+2026-02-25 03:30:25,385 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI pondérés {'GWP': 0.96, 'ADPe': 0.96, 'WU': 0.77, 'ADPf': 0.96, 'TPE': 0.77, 'WEEE': 0.58}
+2026-02-25 03:30:25,385 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI pondérés {'GWP': 0.91, 'ADPe': 0.91, 'WU': 0.68, 'ADPf': 0.91, 'TPE': 0.91, 'WEEE': 0.68}
+2026-02-25 03:30:25,385 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 0.77, 'ADPe': 0.77, 'WU': 0.77, 'ADPf': 0.77, 'TPE': 0.77, 'WEEE': 1.15}
+2026-02-25 03:30:25,385 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI pondérés {'GWP': 0.77, 'ADPe': 0.77, 'WU': 0.77, 'ADPf': 0.77, 'TPE': 0.77, 'WEEE': 1.15}
+2026-02-25 03:30:25,385 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI pondérés {'GWP': 1.0, 'ADPe': 0.8, 'WU': 0.8, 'ADPf': 0.8, 'TPE': 1.0, 'WEEE': 0.6}
+2026-02-25 03:30:25,385 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI pondérés {'GWP': 0.83, 'ADPe': 1.04, 'WU': 0.83, 'ADPf': 0.83, 'TPE': 0.83, 'WEEE': 0.62}
+2026-02-25 03:30:25,385 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI pondérés {'GWP': 0.91, 'ADPe': 0.91, 'WU': 0.68, 'ADPf': 0.91, 'TPE': 0.91, 'WEEE': 0.68}
+2026-02-25 03:30:25,385 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 0.71, 'ADPe': 0.71, 'WU': 1.07, 'ADPf': 0.71, 'TPE': 0.71, 'WEEE': 1.07}
+2026-02-25 03:30:25,385 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI pondérés {'GWP': 0.79, 'ADPe': 1.05, 'WU': 0.79, 'ADPf': 0.79, 'TPE': 0.79, 'WEEE': 0.79}
+2026-02-25 03:30:25,386 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI pondérés {'GWP': 0.42, 'ADPe': 0.83, 'WU': 1.25, 'ADPf': 0.83, 'TPE': 0.42, 'WEEE': 1.25}
+2026-02-25 03:30:25,386 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI pondérés {'GWP': 1.0, 'ADPe': 0.75, 'WU': 0.75, 'ADPf': 1.0, 'TPE': 0.75, 'WEEE': 0.75}
+2026-02-25 03:30:25,386 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI pondérés {'GWP': 0.62, 'ADPe': 0.62, 'WU': 0.62, 'ADPf': 0.62, 'TPE': 0.62, 'WEEE': 1.88}
+2026-02-25 03:30:25,386 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 1.05, 'ADPe': 0.53, 'WU': 1.05, 'ADPf': 0.79, 'TPE': 0.79, 'WEEE': 0.79}
+2026-02-25 03:30:25,386 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI pondérés {'GWP': 0.79, 'ADPe': 1.05, 'WU': 0.79, 'ADPf': 0.79, 'TPE': 0.79, 'WEEE': 0.79}
+2026-02-25 03:30:25,386 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI pondérés {'GWP': 1.0, 'ADPe': 0.67, 'WU': 0.67, 'ADPf': 0.67, 'TPE': 1.0, 'WEEE': 1.0}
+2026-02-25 03:30:25,386 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI pondérés {'GWP': 0.59, 'ADPe': 0.88, 'WU': 1.18, 'ADPf': 0.88, 'TPE': 0.59, 'WEEE': 0.88}
+2026-02-25 03:30:25,386 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI pondérés {'GWP': 0.59, 'ADPe': 0.88, 'WU': 1.18, 'ADPf': 0.88, 'TPE': 0.59, 'WEEE': 0.88}
+2026-02-25 03:30:25,386 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 0.71, 'ADPe': 0.95, 'WU': 0.71, 'ADPf': 0.95, 'TPE': 0.95, 'WEEE': 0.71}
+2026-02-25 03:30:25,387 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI pondérés {'GWP': 0.87, 'ADPe': 0.87, 'WU': 0.87, 'ADPf': 0.87, 'TPE': 0.87, 'WEEE': 0.65}
+2026-02-25 03:30:25,387 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI pondérés {'GWP': 0.87, 'ADPe': 0.87, 'WU': 0.87, 'ADPf': 0.87, 'TPE': 0.87, 'WEEE': 0.65}
+2026-02-25 03:30:25,387 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI pondérés {'GWP': 1.11, 'ADPe': 0.83, 'WU': 0.56, 'ADPf': 0.83, 'TPE': 0.83, 'WEEE': 0.83}
+2026-02-25 03:30:25,387 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI pondérés {'GWP': 0.91, 'ADPe': 0.91, 'WU': 0.68, 'ADPf': 0.91, 'TPE': 0.91, 'WEEE': 0.68}
+2026-02-25 03:30:25,387 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 0.71, 'ADPe': 0.95, 'WU': 0.71, 'ADPf': 0.95, 'TPE': 0.95, 'WEEE': 0.71}
+2026-02-25 03:30:25,387 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI pondérés {'GWP': 1.0, 'ADPe': 0.67, 'WU': 0.67, 'ADPf': 0.67, 'TPE': 1.0, 'WEEE': 1.0}
+2026-02-25 03:30:25,387 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI pondérés {'GWP': 0.62, 'ADPe': 0.62, 'WU': 0.62, 'ADPf': 0.62, 'TPE': 0.62, 'WEEE': 1.88}
+2026-02-25 03:30:25,387 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI pondérés {'GWP': 0.96, 'ADPe': 0.96, 'WU': 0.77, 'ADPf': 0.96, 'TPE': 0.77, 'WEEE': 0.58}
+2026-02-25 03:30:25,387 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI pondérés {'GWP': 0.91, 'ADPe': 0.91, 'WU': 0.68, 'ADPf': 0.91, 'TPE': 0.91, 'WEEE': 0.68}
+2026-02-25 03:30:25,387 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 0.77, 'ADPe': 0.77, 'WU': 0.77, 'ADPf': 0.77, 'TPE': 0.77, 'WEEE': 1.15}
+2026-02-25 03:30:25,388 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI pondérés {'GWP': 0.77, 'ADPe': 0.77, 'WU': 0.77, 'ADPf': 0.77, 'TPE': 0.77, 'WEEE': 1.15}
+2026-02-25 03:30:25,388 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI pondérés {'GWP': 1.0, 'ADPe': 0.8, 'WU': 0.8, 'ADPf': 0.8, 'TPE': 1.0, 'WEEE': 0.6}
+2026-02-25 03:30:25,388 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI pondérés {'GWP': 0.83, 'ADPe': 1.04, 'WU': 0.83, 'ADPf': 0.83, 'TPE': 0.83, 'WEEE': 0.62}
+2026-02-25 03:30:25,388 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI pondérés {'GWP': 0.91, 'ADPe': 0.91, 'WU': 0.68, 'ADPf': 0.91, 'TPE': 0.91, 'WEEE': 0.68}
+2026-02-25 03:30:25,388 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 0.71, 'ADPe': 0.71, 'WU': 1.07, 'ADPf': 0.71, 'TPE': 0.71, 'WEEE': 1.07}
+2026-02-25 03:30:25,388 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI pondérés {'GWP': 0.79, 'ADPe': 1.05, 'WU': 0.79, 'ADPf': 0.79, 'TPE': 0.79, 'WEEE': 0.79}
+2026-02-25 03:30:25,388 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI pondérés {'GWP': 0.42, 'ADPe': 0.83, 'WU': 1.25, 'ADPf': 0.83, 'TPE': 0.42, 'WEEE': 1.25}
+2026-02-25 03:30:25,388 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI pondérés {'GWP': 1.0, 'ADPe': 0.75, 'WU': 0.75, 'ADPf': 1.0, 'TPE': 0.75, 'WEEE': 0.75}
+2026-02-25 03:30:25,388 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI pondérés {'GWP': 0.62, 'ADPe': 0.62, 'WU': 0.62, 'ADPf': 0.62, 'TPE': 0.62, 'WEEE': 1.88}
+2026-02-25 03:30:25,388 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 1.05, 'ADPe': 0.53, 'WU': 1.05, 'ADPf': 0.79, 'TPE': 0.79, 'WEEE': 0.79}
+2026-02-25 03:30:25,389 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI pondérés {'GWP': 0.79, 'ADPe': 1.05, 'WU': 0.79, 'ADPf': 0.79, 'TPE': 0.79, 'WEEE': 0.79}
+2026-02-25 03:30:25,389 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI pondérés {'GWP': 1.0, 'ADPe': 0.67, 'WU': 0.67, 'ADPf': 0.67, 'TPE': 1.0, 'WEEE': 1.0}
+2026-02-25 03:30:25,389 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI pondérés {'GWP': 0.59, 'ADPe': 0.88, 'WU': 1.18, 'ADPf': 0.88, 'TPE': 0.59, 'WEEE': 0.88}
+2026-02-25 03:30:25,389 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI pondérés {'GWP': 0.59, 'ADPe': 0.88, 'WU': 1.18, 'ADPf': 0.88, 'TPE': 0.59, 'WEEE': 0.88}
+2026-02-25 03:30:25,389 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 0.71, 'ADPe': 0.95, 'WU': 0.71, 'ADPf': 0.95, 'TPE': 0.95, 'WEEE': 0.71}
+2026-02-25 03:30:25,389 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI pondérés {'GWP': 0.87, 'ADPe': 0.87, 'WU': 0.87, 'ADPf': 0.87, 'TPE': 0.87, 'WEEE': 0.65}
+2026-02-25 03:30:25,389 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI pondérés {'GWP': 0.87, 'ADPe': 0.87, 'WU': 0.87, 'ADPf': 0.87, 'TPE': 0.87, 'WEEE': 0.65}
+2026-02-25 03:30:25,389 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI pondérés {'GWP': 1.11, 'ADPe': 0.83, 'WU': 0.56, 'ADPf': 0.83, 'TPE': 0.83, 'WEEE': 0.83}
+2026-02-25 03:30:25,389 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI pondérés {'GWP': 0.91, 'ADPe': 0.91, 'WU': 0.68, 'ADPf': 0.91, 'TPE': 0.91, 'WEEE': 0.68}
+2026-02-25 03:30:25,389 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 0.71, 'ADPe': 0.95, 'WU': 0.71, 'ADPf': 0.95, 'TPE': 0.95, 'WEEE': 0.71}
+2026-02-25 03:30:25,390 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI pondérés {'GWP': 1.0, 'ADPe': 0.67, 'WU': 0.67, 'ADPf': 0.67, 'TPE': 1.0, 'WEEE': 1.0}
+2026-02-25 03:30:25,390 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI pondérés {'GWP': 0.62, 'ADPe': 0.62, 'WU': 0.62, 'ADPf': 0.62, 'TPE': 0.62, 'WEEE': 1.88}
+2026-02-25 03:30:25,390 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI pondérés {'GWP': 0.96, 'ADPe': 0.96, 'WU': 0.77, 'ADPf': 0.96, 'TPE': 0.77, 'WEEE': 0.58}
+2026-02-25 03:30:25,390 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI pondérés {'GWP': 0.91, 'ADPe': 0.91, 'WU': 0.68, 'ADPf': 0.91, 'TPE': 0.91, 'WEEE': 0.68}
+2026-02-25 03:30:25,390 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 0.77, 'ADPe': 0.77, 'WU': 0.77, 'ADPf': 0.77, 'TPE': 0.77, 'WEEE': 1.15}
+2026-02-25 03:30:25,390 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI pondérés {'GWP': 0.77, 'ADPe': 0.77, 'WU': 0.77, 'ADPf': 0.77, 'TPE': 0.77, 'WEEE': 1.15}
+2026-02-25 03:30:25,390 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI pondérés {'GWP': 1.0, 'ADPe': 0.8, 'WU': 0.8, 'ADPf': 0.8, 'TPE': 1.0, 'WEEE': 0.6}
+2026-02-25 03:30:25,390 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI pondérés {'GWP': 0.83, 'ADPe': 1.04, 'WU': 0.83, 'ADPf': 0.83, 'TPE': 0.83, 'WEEE': 0.62}
+2026-02-25 03:30:25,390 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI pondérés {'GWP': 0.91, 'ADPe': 0.91, 'WU': 0.68, 'ADPf': 0.91, 'TPE': 0.91, 'WEEE': 0.68}
+2026-02-25 03:30:25,391 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 0.71, 'ADPe': 0.71, 'WU': 1.07, 'ADPf': 0.71, 'TPE': 0.71, 'WEEE': 1.07}
+2026-02-25 03:30:25,391 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI pondérés {'GWP': 0.79, 'ADPe': 1.05, 'WU': 0.79, 'ADPf': 0.79, 'TPE': 0.79, 'WEEE': 0.79}
+2026-02-25 03:30:25,391 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI pondérés {'GWP': 0.42, 'ADPe': 0.83, 'WU': 1.25, 'ADPf': 0.83, 'TPE': 0.42, 'WEEE': 1.25}
+2026-02-25 03:30:25,391 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI pondérés {'GWP': 1.0, 'ADPe': 0.75, 'WU': 0.75, 'ADPf': 1.0, 'TPE': 0.75, 'WEEE': 0.75}
+2026-02-25 03:30:25,391 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI pondérés {'GWP': 0.62, 'ADPe': 0.62, 'WU': 0.62, 'ADPf': 0.62, 'TPE': 0.62, 'WEEE': 1.88}
+2026-02-25 03:30:25,391 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 1.05, 'ADPe': 0.53, 'WU': 1.05, 'ADPf': 0.79, 'TPE': 0.79, 'WEEE': 0.79}
+2026-02-25 03:30:25,391 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI pondérés {'GWP': 0.79, 'ADPe': 1.05, 'WU': 0.79, 'ADPf': 0.79, 'TPE': 0.79, 'WEEE': 0.79}
+2026-02-25 03:30:25,391 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI pondérés {'GWP': 1.0, 'ADPe': 0.67, 'WU': 0.67, 'ADPf': 0.67, 'TPE': 1.0, 'WEEE': 1.0}
+2026-02-25 03:30:25,391 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI pondérés {'GWP': 0.59, 'ADPe': 0.88, 'WU': 1.18, 'ADPf': 0.88, 'TPE': 0.59, 'WEEE': 0.88}
+2026-02-25 03:30:25,392 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI pondérés {'GWP': 0.59, 'ADPe': 0.88, 'WU': 1.18, 'ADPf': 0.88, 'TPE': 0.59, 'WEEE': 0.88}
+2026-02-25 03:30:25,392 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 0.71, 'ADPe': 0.95, 'WU': 0.71, 'ADPf': 0.95, 'TPE': 0.95, 'WEEE': 0.71}
+2026-02-25 03:30:25,392 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI pondérés {'GWP': 0.87, 'ADPe': 0.87, 'WU': 0.87, 'ADPf': 0.87, 'TPE': 0.87, 'WEEE': 0.65}
+2026-02-25 03:30:25,392 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI pondérés {'GWP': 0.87, 'ADPe': 0.87, 'WU': 0.87, 'ADPf': 0.87, 'TPE': 0.87, 'WEEE': 0.65}
+2026-02-25 03:30:25,392 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI pondérés {'GWP': 1.11, 'ADPe': 0.83, 'WU': 0.56, 'ADPf': 0.83, 'TPE': 0.83, 'WEEE': 0.83}
+2026-02-25 03:30:25,392 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI pondérés {'GWP': 0.91, 'ADPe': 0.91, 'WU': 0.68, 'ADPf': 0.91, 'TPE': 0.91, 'WEEE': 0.68}
+2026-02-25 03:30:25,392 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 0.71, 'ADPe': 0.95, 'WU': 0.71, 'ADPf': 0.95, 'TPE': 0.95, 'WEEE': 0.71}
+2026-02-25 03:30:25,392 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI pondérés {'GWP': 1.0, 'ADPe': 0.67, 'WU': 0.67, 'ADPf': 0.67, 'TPE': 1.0, 'WEEE': 1.0}
+2026-02-25 03:30:25,392 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI pondérés {'GWP': 0.62, 'ADPe': 0.62, 'WU': 0.62, 'ADPf': 0.62, 'TPE': 0.62, 'WEEE': 1.88}
+2026-02-25 03:30:25,392 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI pondérés {'GWP': 0.96, 'ADPe': 0.96, 'WU': 0.77, 'ADPf': 0.96, 'TPE': 0.77, 'WEEE': 0.58}
+2026-02-25 03:30:25,393 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI pondérés {'GWP': 0.91, 'ADPe': 0.91, 'WU': 0.68, 'ADPf': 0.91, 'TPE': 0.91, 'WEEE': 0.68}
+2026-02-25 03:30:25,393 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 0.77, 'ADPe': 0.77, 'WU': 0.77, 'ADPf': 0.77, 'TPE': 0.77, 'WEEE': 1.15}
+2026-02-25 03:30:25,393 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI pondérés {'GWP': 0.77, 'ADPe': 0.77, 'WU': 0.77, 'ADPf': 0.77, 'TPE': 0.77, 'WEEE': 1.15}
+2026-02-25 03:30:25,393 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI pondérés {'GWP': 1.0, 'ADPe': 0.8, 'WU': 0.8, 'ADPf': 0.8, 'TPE': 1.0, 'WEEE': 0.6}
+2026-02-25 03:30:25,393 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI pondérés {'GWP': 0.83, 'ADPe': 1.04, 'WU': 0.83, 'ADPf': 0.83, 'TPE': 0.83, 'WEEE': 0.62}
+2026-02-25 03:30:25,393 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI pondérés {'GWP': 0.91, 'ADPe': 0.91, 'WU': 0.68, 'ADPf': 0.91, 'TPE': 0.91, 'WEEE': 0.68}
+2026-02-25 03:30:25,393 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 0.71, 'ADPe': 0.71, 'WU': 1.07, 'ADPf': 0.71, 'TPE': 0.71, 'WEEE': 1.07}
+2026-02-25 03:30:25,393 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI pondérés {'GWP': 0.79, 'ADPe': 1.05, 'WU': 0.79, 'ADPf': 0.79, 'TPE': 0.79, 'WEEE': 0.79}
+2026-02-25 03:30:25,393 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI pondérés {'GWP': 0.42, 'ADPe': 0.83, 'WU': 1.25, 'ADPf': 0.83, 'TPE': 0.42, 'WEEE': 1.25}
+2026-02-25 03:30:25,393 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI pondérés {'GWP': 1.0, 'ADPe': 0.75, 'WU': 0.75, 'ADPf': 1.0, 'TPE': 0.75, 'WEEE': 0.75}
+2026-02-25 03:30:25,394 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI pondérés {'GWP': 0.62, 'ADPe': 0.62, 'WU': 0.62, 'ADPf': 0.62, 'TPE': 0.62, 'WEEE': 1.88}
+2026-02-25 03:30:25,394 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 1.05, 'ADPe': 0.53, 'WU': 1.05, 'ADPf': 0.79, 'TPE': 0.79, 'WEEE': 0.79}
+2026-02-25 03:30:25,394 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI pondérés {'GWP': 0.79, 'ADPe': 1.05, 'WU': 0.79, 'ADPf': 0.79, 'TPE': 0.79, 'WEEE': 0.79}
+2026-02-25 03:30:25,394 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI pondérés {'GWP': 1.0, 'ADPe': 0.67, 'WU': 0.67, 'ADPf': 0.67, 'TPE': 1.0, 'WEEE': 1.0}
+2026-02-25 03:30:25,394 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI pondérés {'GWP': 0.59, 'ADPe': 0.88, 'WU': 1.18, 'ADPf': 0.88, 'TPE': 0.59, 'WEEE': 0.88}
+2026-02-25 03:30:25,394 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI pondérés {'GWP': 0.59, 'ADPe': 0.88, 'WU': 1.18, 'ADPf': 0.88, 'TPE': 0.59, 'WEEE': 0.88}
+2026-02-25 03:30:25,394 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 0.71, 'ADPe': 0.95, 'WU': 0.71, 'ADPf': 0.95, 'TPE': 0.95, 'WEEE': 0.71}
+2026-02-25 03:30:25,394 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI pondérés {'GWP': 0.87, 'ADPe': 0.87, 'WU': 0.87, 'ADPf': 0.87, 'TPE': 0.87, 'WEEE': 0.65}
+2026-02-25 03:30:25,394 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI pondérés {'GWP': 0.87, 'ADPe': 0.87, 'WU': 0.87, 'ADPf': 0.87, 'TPE': 0.87, 'WEEE': 0.65}
+2026-02-25 03:30:25,394 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI pondérés {'GWP': 1.11, 'ADPe': 0.83, 'WU': 0.56, 'ADPf': 0.83, 'TPE': 0.83, 'WEEE': 0.83}
+2026-02-25 03:30:25,395 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI pondérés {'GWP': 0.91, 'ADPe': 0.91, 'WU': 0.68, 'ADPf': 0.91, 'TPE': 0.91, 'WEEE': 0.68}
+2026-02-25 03:30:25,395 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 0.71, 'ADPe': 0.95, 'WU': 0.71, 'ADPf': 0.95, 'TPE': 0.95, 'WEEE': 0.71}
+2026-02-25 03:30:25,395 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI pondérés {'GWP': 1.0, 'ADPe': 0.67, 'WU': 0.67, 'ADPf': 0.67, 'TPE': 1.0, 'WEEE': 1.0}
+2026-02-25 03:30:25,395 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI pondérés {'GWP': 0.62, 'ADPe': 0.62, 'WU': 0.62, 'ADPf': 0.62, 'TPE': 0.62, 'WEEE': 1.88}
+2026-02-25 03:30:25,395 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI pondérés {'GWP': 0.96, 'ADPe': 0.96, 'WU': 0.77, 'ADPf': 0.96, 'TPE': 0.77, 'WEEE': 0.58}
+2026-02-25 03:30:25,395 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI pondérés {'GWP': 0.91, 'ADPe': 0.91, 'WU': 0.68, 'ADPf': 0.91, 'TPE': 0.91, 'WEEE': 0.68}
+2026-02-25 03:30:25,395 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 0.77, 'ADPe': 0.77, 'WU': 0.77, 'ADPf': 0.77, 'TPE': 0.77, 'WEEE': 1.15}
+2026-02-25 03:30:25,395 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI pondérés {'GWP': 0.77, 'ADPe': 0.77, 'WU': 0.77, 'ADPf': 0.77, 'TPE': 0.77, 'WEEE': 1.15}
+2026-02-25 03:30:25,395 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI pondérés {'GWP': 1.0, 'ADPe': 0.8, 'WU': 0.8, 'ADPf': 0.8, 'TPE': 1.0, 'WEEE': 0.6}
+2026-02-25 03:30:25,395 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI pondérés {'GWP': 0.83, 'ADPe': 1.04, 'WU': 0.83, 'ADPf': 0.83, 'TPE': 0.83, 'WEEE': 0.62}
+2026-02-25 03:30:25,396 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI pondérés {'GWP': 0.91, 'ADPe': 0.91, 'WU': 0.68, 'ADPf': 0.91, 'TPE': 0.91, 'WEEE': 0.68}
+2026-02-25 03:30:25,396 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 0.71, 'ADPe': 0.71, 'WU': 1.07, 'ADPf': 0.71, 'TPE': 0.71, 'WEEE': 1.07}
+2026-02-25 03:30:25,396 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI pondérés {'GWP': 0.79, 'ADPe': 1.05, 'WU': 0.79, 'ADPf': 0.79, 'TPE': 0.79, 'WEEE': 0.79}
+2026-02-25 03:30:25,396 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI pondérés {'GWP': 0.42, 'ADPe': 0.83, 'WU': 1.25, 'ADPf': 0.83, 'TPE': 0.42, 'WEEE': 1.25}
+2026-02-25 03:30:25,396 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI pondérés {'GWP': 1.0, 'ADPe': 0.75, 'WU': 0.75, 'ADPf': 1.0, 'TPE': 0.75, 'WEEE': 0.75}
+2026-02-25 03:30:25,396 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI pondérés {'GWP': 0.62, 'ADPe': 0.62, 'WU': 0.62, 'ADPf': 0.62, 'TPE': 0.62, 'WEEE': 1.88}
+2026-02-25 03:30:25,396 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 1.05, 'ADPe': 0.53, 'WU': 1.05, 'ADPf': 0.79, 'TPE': 0.79, 'WEEE': 0.79}
+2026-02-25 03:30:25,396 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI pondérés {'GWP': 0.79, 'ADPe': 1.05, 'WU': 0.79, 'ADPf': 0.79, 'TPE': 0.79, 'WEEE': 0.79}
+2026-02-25 03:30:25,396 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI pondérés {'GWP': 1.0, 'ADPe': 0.67, 'WU': 0.67, 'ADPf': 0.67, 'TPE': 1.0, 'WEEE': 1.0}
+2026-02-25 03:30:25,397 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI pondérés {'GWP': 0.59, 'ADPe': 0.88, 'WU': 1.18, 'ADPf': 0.88, 'TPE': 0.59, 'WEEE': 0.88}
+2026-02-25 03:30:25,397 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI pondérés {'GWP': 0.59, 'ADPe': 0.88, 'WU': 1.18, 'ADPf': 0.88, 'TPE': 0.59, 'WEEE': 0.88}
+2026-02-25 03:30:25,397 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 0.71, 'ADPe': 0.95, 'WU': 0.71, 'ADPf': 0.95, 'TPE': 0.95, 'WEEE': 0.71}
+2026-02-25 03:30:25,397 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI pondérés {'GWP': 0.87, 'ADPe': 0.87, 'WU': 0.87, 'ADPf': 0.87, 'TPE': 0.87, 'WEEE': 0.65}
+2026-02-25 03:30:25,397 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI pondérés {'GWP': 0.87, 'ADPe': 0.87, 'WU': 0.87, 'ADPf': 0.87, 'TPE': 0.87, 'WEEE': 0.65}
+2026-02-25 03:30:25,397 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI pondérés {'GWP': 1.11, 'ADPe': 0.83, 'WU': 0.56, 'ADPf': 0.83, 'TPE': 0.83, 'WEEE': 0.83}
+2026-02-25 03:30:25,397 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI pondérés {'GWP': 0.91, 'ADPe': 0.91, 'WU': 0.68, 'ADPf': 0.91, 'TPE': 0.91, 'WEEE': 0.68}
+2026-02-25 03:30:25,397 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 0.71, 'ADPe': 0.95, 'WU': 0.71, 'ADPf': 0.95, 'TPE': 0.95, 'WEEE': 0.71}
+2026-02-25 03:30:25,397 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI pondérés {'GWP': 1.0, 'ADPe': 0.67, 'WU': 0.67, 'ADPf': 0.67, 'TPE': 1.0, 'WEEE': 1.0}
+2026-02-25 03:30:25,397 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI pondérés {'GWP': 0.62, 'ADPe': 0.62, 'WU': 0.62, 'ADPf': 0.62, 'TPE': 0.62, 'WEEE': 1.88}
+2026-02-25 03:30:25,398 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI pondérés {'GWP': 0.96, 'ADPe': 0.96, 'WU': 0.77, 'ADPf': 0.96, 'TPE': 0.77, 'WEEE': 0.58}
+2026-02-25 03:30:25,398 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI pondérés {'GWP': 0.91, 'ADPe': 0.91, 'WU': 0.68, 'ADPf': 0.91, 'TPE': 0.91, 'WEEE': 0.68}
+2026-02-25 03:30:25,398 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 0.77, 'ADPe': 0.77, 'WU': 0.77, 'ADPf': 0.77, 'TPE': 0.77, 'WEEE': 1.15}
+2026-02-25 03:30:25,398 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI pondérés {'GWP': 0.77, 'ADPe': 0.77, 'WU': 0.77, 'ADPf': 0.77, 'TPE': 0.77, 'WEEE': 1.15}
+2026-02-25 03:30:25,398 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI pondérés {'GWP': 1.0, 'ADPe': 0.8, 'WU': 0.8, 'ADPf': 0.8, 'TPE': 1.0, 'WEEE': 0.6}
+2026-02-25 03:30:25,398 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI pondérés {'GWP': 0.83, 'ADPe': 1.04, 'WU': 0.83, 'ADPf': 0.83, 'TPE': 0.83, 'WEEE': 0.62}
+2026-02-25 03:30:25,398 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI pondérés {'GWP': 0.91, 'ADPe': 0.91, 'WU': 0.68, 'ADPf': 0.91, 'TPE': 0.91, 'WEEE': 0.68}
+2026-02-25 03:30:25,398 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 0.71, 'ADPe': 0.71, 'WU': 1.07, 'ADPf': 0.71, 'TPE': 0.71, 'WEEE': 1.07}
+2026-02-25 03:30:25,398 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI pondérés {'GWP': 0.79, 'ADPe': 1.05, 'WU': 0.79, 'ADPf': 0.79, 'TPE': 0.79, 'WEEE': 0.79}
+2026-02-25 03:30:25,398 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI pondérés {'GWP': 0.42, 'ADPe': 0.83, 'WU': 1.25, 'ADPf': 0.83, 'TPE': 0.42, 'WEEE': 1.25}
+2026-02-25 03:30:25,399 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI pondérés {'GWP': 1.0, 'ADPe': 0.75, 'WU': 0.75, 'ADPf': 1.0, 'TPE': 0.75, 'WEEE': 0.75}
+2026-02-25 03:30:25,399 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI pondérés {'GWP': 0.62, 'ADPe': 0.62, 'WU': 0.62, 'ADPf': 0.62, 'TPE': 0.62, 'WEEE': 1.88}
+2026-02-25 03:30:25,399 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 1.05, 'ADPe': 0.53, 'WU': 1.05, 'ADPf': 0.79, 'TPE': 0.79, 'WEEE': 0.79}
+2026-02-25 03:30:25,399 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI pondérés {'GWP': 0.79, 'ADPe': 1.05, 'WU': 0.79, 'ADPf': 0.79, 'TPE': 0.79, 'WEEE': 0.79}
+2026-02-25 03:30:25,399 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI pondérés {'GWP': 1.0, 'ADPe': 0.67, 'WU': 0.67, 'ADPf': 0.67, 'TPE': 1.0, 'WEEE': 1.0}
+2026-02-25 03:30:25,399 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI pondérés {'GWP': 0.59, 'ADPe': 0.88, 'WU': 1.18, 'ADPf': 0.88, 'TPE': 0.59, 'WEEE': 0.88}
+2026-02-25 03:30:25,399 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI pondérés {'GWP': 0.59, 'ADPe': 0.88, 'WU': 1.18, 'ADPf': 0.88, 'TPE': 0.59, 'WEEE': 0.88}
+2026-02-25 03:30:25,399 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI pondérés {'GWP': 0.71, 'ADPe': 0.95, 'WU': 0.71, 'ADPf': 0.95, 'TPE': 0.95, 'WEEE': 0.71}
+2026-02-25 03:30:25,399 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI pondérés {'GWP': 0.87, 'ADPe': 0.87, 'WU': 0.87, 'ADPf': 0.87, 'TPE': 0.87, 'WEEE': 0.65}
+2026-02-25 03:30:25,399 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI pondérés {'GWP': 0.87, 'ADPe': 0.87, 'WU': 0.87, 'ADPf': 0.87, 'TPE': 0.87, 'WEEE': 0.65}
+2026-02-25 03:30:25,400 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI pondérés {'GWP': 1.11, 'ADPe': 0.83, 'WU': 0.56, 'ADPf': 0.83, 'TPE': 0.83, 'WEEE': 0.83}
+2026-02-25 03:30:25,458 INFO Scoring terminé avec succès.
+2026-02-25 03:32:47,231 INFO --- LANCEMENT DU SCRIPT ---
+2026-02-25 03:32:47,233 ERROR Impossible d'ajouter la colonne Departement : (sqlite3.OperationalError) duplicate column name: Departement
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Departement TEXT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 03:32:47,233 ERROR Impossible d'ajouter la colonne Green_IT_Score : (sqlite3.OperationalError) duplicate column name: Green_IT_Score
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Green_IT_Score FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 03:32:47,233 ERROR Impossible d'ajouter la colonne Score_GWP : (sqlite3.OperationalError) duplicate column name: Score_GWP
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Score_GWP FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 03:32:47,233 ERROR Impossible d'ajouter la colonne Score_ADPe : (sqlite3.OperationalError) duplicate column name: Score_ADPe
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Score_ADPe FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 03:32:47,234 ERROR Impossible d'ajouter la colonne Score_WU : (sqlite3.OperationalError) duplicate column name: Score_WU
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Score_WU FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 03:32:47,234 ERROR Impossible d'ajouter la colonne Score_ADPf : (sqlite3.OperationalError) duplicate column name: Score_ADPf
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Score_ADPf FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 03:32:47,234 ERROR Impossible d'ajouter la colonne Score_TPE : (sqlite3.OperationalError) duplicate column name: Score_TPE
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Score_TPE FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 03:32:47,234 ERROR Impossible d'ajouter la colonne Score_WEEE : (sqlite3.OperationalError) duplicate column name: Score_WEEE
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Score_WEEE FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 03:32:47,234 INFO Ingestion des données CSV...
+2026-02-25 03:32:47,251 INFO Ingestion terminée : 25 lignes traitées.
+2026-02-25 03:32:47,251 INFO Analyse IA et Scoring...
+2026-02-25 03:32:47,252 INFO Démarrage de l'entraînement du modèle KNN...
+2026-02-25 03:32:47,265 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,265 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,265 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,265 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:32:47,265 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 5, 'WU': 4, 'ADPf': 5, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,265 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,265 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,265 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,265 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 5, 'WEEE': 3}
+2026-02-25 03:32:47,265 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 5, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,266 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,266 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,266 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,266 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:32:47,266 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 3, 'ADPf': 4, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,266 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:32:47,266 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 4, 'ADPe': 2, 'WU': 4, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,266 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,266 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,266 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,267 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,267 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,267 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,267 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,267 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 2, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,267 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,267 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,267 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,267 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:32:47,267 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 5, 'WU': 4, 'ADPf': 5, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,267 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,267 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,268 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,268 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 5, 'WEEE': 3}
+2026-02-25 03:32:47,268 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 5, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,268 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,268 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,268 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,268 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:32:47,268 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 3, 'ADPf': 4, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,268 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:32:47,268 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 4, 'ADPe': 2, 'WU': 4, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,268 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,269 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,269 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,269 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,269 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,269 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,269 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,269 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 2, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,269 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,269 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,269 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,269 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:32:47,270 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 5, 'WU': 4, 'ADPf': 5, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,270 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,270 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,270 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,270 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 5, 'WEEE': 3}
+2026-02-25 03:32:47,270 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 5, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,270 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,270 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,270 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,270 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:32:47,270 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 3, 'ADPf': 4, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,271 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:32:47,271 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 4, 'ADPe': 2, 'WU': 4, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,271 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,271 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,271 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,271 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,271 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,271 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,271 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,271 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 2, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,271 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,272 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,272 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,272 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:32:47,272 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 5, 'WU': 4, 'ADPf': 5, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,272 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,272 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,272 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,272 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 5, 'WEEE': 3}
+2026-02-25 03:32:47,272 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 5, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,272 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,273 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,273 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,273 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:32:47,273 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 3, 'ADPf': 4, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,273 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:32:47,273 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 4, 'ADPe': 2, 'WU': 4, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,273 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,273 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,273 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,274 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,274 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,274 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,274 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,274 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 2, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,274 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,274 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,274 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,274 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:32:47,274 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 5, 'WU': 4, 'ADPf': 5, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,275 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,275 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,275 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,275 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 5, 'WEEE': 3}
+2026-02-25 03:32:47,275 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 5, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,275 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,275 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,275 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,275 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:32:47,275 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 3, 'ADPf': 4, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,275 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:32:47,276 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 4, 'ADPe': 2, 'WU': 4, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,276 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,276 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,276 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,276 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,276 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,276 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,276 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,276 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 2, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,276 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,276 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,276 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,277 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:32:47,277 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 5, 'WU': 4, 'ADPf': 5, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,277 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,277 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,277 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,277 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 5, 'WEEE': 3}
+2026-02-25 03:32:47,277 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 5, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,277 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,277 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,277 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,277 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:32:47,278 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 3, 'ADPf': 4, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,278 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:32:47,278 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 4, 'ADPe': 2, 'WU': 4, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,278 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,278 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,278 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,278 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,278 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,278 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,278 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,279 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 2, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,279 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,279 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,279 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,279 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:32:47,279 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 5, 'WU': 4, 'ADPf': 5, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,279 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,279 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,279 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,279 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 5, 'WEEE': 3}
+2026-02-25 03:32:47,279 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 5, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,280 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,280 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,280 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,280 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:32:47,280 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 3, 'ADPf': 4, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,280 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:32:47,280 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 4, 'ADPe': 2, 'WU': 4, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,280 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,280 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,280 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,280 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:32:47,281 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,281 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,281 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:32:47,281 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 2, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:32:47,349 INFO Scoring terminé avec succès.
+2026-02-25 03:38:20,259 INFO --- LANCEMENT DU SCRIPT ---
+2026-02-25 03:38:20,261 ERROR Impossible d'ajouter la colonne Departement : (sqlite3.OperationalError) duplicate column name: Departement
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Departement TEXT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 03:38:20,261 ERROR Impossible d'ajouter la colonne Green_IT_Score : (sqlite3.OperationalError) duplicate column name: Green_IT_Score
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Green_IT_Score FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 03:38:20,261 ERROR Impossible d'ajouter la colonne Score_GWP : (sqlite3.OperationalError) duplicate column name: Score_GWP
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Score_GWP FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 03:38:20,261 ERROR Impossible d'ajouter la colonne Score_ADPe : (sqlite3.OperationalError) duplicate column name: Score_ADPe
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Score_ADPe FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 03:38:20,261 ERROR Impossible d'ajouter la colonne Score_WU : (sqlite3.OperationalError) duplicate column name: Score_WU
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Score_WU FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 03:38:20,261 ERROR Impossible d'ajouter la colonne Score_ADPf : (sqlite3.OperationalError) duplicate column name: Score_ADPf
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Score_ADPf FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 03:38:20,261 ERROR Impossible d'ajouter la colonne Score_TPE : (sqlite3.OperationalError) duplicate column name: Score_TPE
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Score_TPE FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 03:38:20,261 ERROR Impossible d'ajouter la colonne Score_WEEE : (sqlite3.OperationalError) duplicate column name: Score_WEEE
+[SQL: ALTER TABLE impacts_calcules ADD COLUMN Score_WEEE FLOAT]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-25 03:38:20,261 INFO Ingestion des données CSV...
+2026-02-25 03:38:20,276 INFO Ingestion terminée : 25 lignes traitées.
+2026-02-25 03:38:20,276 INFO Analyse IA et Scoring...
+2026-02-25 03:38:20,276 INFO Démarrage de l'entraînement du modèle KNN...
+2026-02-25 03:38:20,288 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,288 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,288 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,289 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:38:20,289 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 5, 'WU': 4, 'ADPf': 5, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,289 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,289 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,289 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,289 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 5, 'WEEE': 3}
+2026-02-25 03:38:20,289 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 5, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,289 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,289 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,289 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,290 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:38:20,290 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 3, 'ADPf': 4, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,290 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:38:20,290 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 4, 'ADPe': 2, 'WU': 4, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,290 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,290 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,290 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,290 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,290 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,290 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,290 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,291 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 2, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,291 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,291 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,291 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,291 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:38:20,291 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 5, 'WU': 4, 'ADPf': 5, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,291 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,291 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,291 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,291 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 5, 'WEEE': 3}
+2026-02-25 03:38:20,291 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 5, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,292 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,292 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,292 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,292 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:38:20,292 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 3, 'ADPf': 4, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,292 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:38:20,292 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 4, 'ADPe': 2, 'WU': 4, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,292 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,292 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,292 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,292 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,293 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,293 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,293 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,293 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 2, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,293 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,293 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,293 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,293 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:38:20,293 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 5, 'WU': 4, 'ADPf': 5, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,293 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,293 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,294 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,294 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 5, 'WEEE': 3}
+2026-02-25 03:38:20,294 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 5, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,294 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,294 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,294 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,294 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:38:20,294 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 3, 'ADPf': 4, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,294 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:38:20,294 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 4, 'ADPe': 2, 'WU': 4, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,295 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,295 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,295 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,295 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,295 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,295 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,295 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,295 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 2, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,295 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,295 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,295 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,296 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:38:20,296 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 5, 'WU': 4, 'ADPf': 5, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,296 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,296 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,296 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,296 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 5, 'WEEE': 3}
+2026-02-25 03:38:20,296 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 5, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,296 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,296 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,296 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,296 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:38:20,297 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 3, 'ADPf': 4, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,297 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:38:20,297 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 4, 'ADPe': 2, 'WU': 4, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,297 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,297 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,297 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,297 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,297 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,297 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,297 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,298 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 2, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,298 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,298 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,298 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,298 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:38:20,298 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 5, 'WU': 4, 'ADPf': 5, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,298 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,298 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,298 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,298 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 5, 'WEEE': 3}
+2026-02-25 03:38:20,298 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 5, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,298 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,299 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,299 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,299 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:38:20,299 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 3, 'ADPf': 4, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,299 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:38:20,299 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 4, 'ADPe': 2, 'WU': 4, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,299 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,299 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,299 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,299 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,299 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,300 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,300 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,300 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 2, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,300 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,300 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,300 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,300 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:38:20,300 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 5, 'WU': 4, 'ADPf': 5, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,300 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,300 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,300 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,301 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 5, 'WEEE': 3}
+2026-02-25 03:38:20,301 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 5, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,301 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,301 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,301 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,301 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:38:20,301 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 3, 'ADPf': 4, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,301 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:38:20,301 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 4, 'ADPe': 2, 'WU': 4, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,301 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,301 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,301 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,302 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,302 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,302 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,302 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,302 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 2, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,302 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,302 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,302 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,302 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:38:20,302 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 5, 'WU': 4, 'ADPf': 5, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,302 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,303 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,303 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,303 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 5, 'WEEE': 3}
+2026-02-25 03:38:20,303 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 5, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,303 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,303 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,303 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,303 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:38:20,303 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 3, 'ADPf': 4, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,303 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:38:20,303 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 4, 'ADPe': 2, 'WU': 4, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,303 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,304 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,304 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,304 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,304 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,304 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,304 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,304 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 2, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,304 INFO Score global 3.7/5 calculé pour Dell OptiPlex 7090 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,304 INFO Score global 3.5/5 calculé pour HP EliteDesk 800 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,304 INFO Score global 2.5/5 calculé pour Lenovo ThinkCentre M75s (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,304 INFO Score global 1.3/5 calculé pour Dell Precision 3650 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:38:20,305 INFO Score global 4.3/5 calculé pour HP ProDesk 600 G7 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 5, 'WU': 4, 'ADPf': 5, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,305 INFO Score global 3.7/5 calculé pour Fujitsu Esprimo P758 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,305 INFO Score global 2.2/5 calculé pour Lenovo ThinkStation P350 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,305 INFO Score global 2.2/5 calculé pour Dell OptiPlex 3080 (dept Information System), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,305 INFO Score global 4.2/5 calculé pour HP Z2 Mini G5 (dept Communication / Marketing), KPI bruts {'GWP': 5, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 5, 'WEEE': 3}
+2026-02-25 03:38:20,305 INFO Score global 4.0/5 calculé pour Bull Evoquer Basic (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 5, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,305 INFO Score global 3.7/5 calculé pour Dell OptiPlex 5070 (dept My_Global_Services), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,305 INFO Score global 2.3/5 calculé pour Lenovo Ideacentre 5 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 2, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,305 INFO Score global 3.2/5 calculé pour HP EliteDesk 800 G5 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,305 INFO Score global 2.0/5 calculé pour Dell Precision 5820 (dept Communication / Marketing), KPI bruts {'GWP': 1, 'ADPe': 2, 'WU': 3, 'ADPf': 2, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:38:20,305 INFO Score global 3.3/5 calculé pour Lenovo ThinkCentre M720 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 3, 'ADPf': 4, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,306 INFO Score global 1.3/5 calculé pour Fujitsu Celcius M740 (dept My_Global_Services), KPI bruts {'GWP': 1, 'ADPe': 1, 'WU': 1, 'ADPf': 1, 'TPE': 1, 'WEEE': 3}
+2026-02-25 03:38:20,306 INFO Score global 3.2/5 calculé pour HP ProDesk 400 G6 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 4, 'ADPe': 2, 'WU': 4, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,306 INFO Score global 3.2/5 calculé pour Dell Vostro 3681 (dept Information System), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,306 INFO Score global 2.5/5 calculé pour Bull Evoquer Premium (dept Communication / Marketing), KPI bruts {'GWP': 3, 'ADPe': 2, 'WU': 2, 'ADPf': 2, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,306 INFO Score global 2.8/5 calculé pour Lenovo ThinkStation P520 (dept Communication / Marketing), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,306 INFO Score global 2.8/5 calculé pour HP Z4 G4 (dept My_Global_Services), KPI bruts {'GWP': 2, 'ADPe': 3, 'WU': 4, 'ADPf': 3, 'TPE': 2, 'WEEE': 3}
+2026-02-25 03:38:20,306 INFO Score global 3.5/5 calculé pour Dell OptiPlex 7060 (dept My_Rail_Subsidiary), KPI bruts {'GWP': 3, 'ADPe': 4, 'WU': 3, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,306 INFO Score global 3.8/5 calculé pour Fujitsu Esprimo Q958 (dept Information System), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,306 INFO Score global 3.8/5 calculé pour Lenovo ThinkCentre M80s (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 4, 'WU': 4, 'ADPf': 4, 'TPE': 4, 'WEEE': 3}
+2026-02-25 03:38:20,306 INFO Score global 3.0/5 calculé pour HP EliteDesk 800 G8 (dept Communication / Marketing), KPI bruts {'GWP': 4, 'ADPe': 3, 'WU': 2, 'ADPf': 3, 'TPE': 3, 'WEEE': 3}
+2026-02-25 03:38:20,384 INFO Scoring terminé avec succès.

@@ -11,6 +11,21 @@ class DesktopImpact(Base):
     Marque = Column(String)
     Modele = Column(String)
 
+    # colonne département (déplacée pour correspondre à l'affichage)
+    Departement = Column(String)
+
+    # Colonne pour le scoring global (Note sur 5)
+    # anciennement appelée Score_Final, renommée Green_IT_Score
+    Green_IT_Score = Column(Float)
+
+    # Scores individuels par KPI (permet d'identifier le KPI dominant)
+    Score_GWP = Column(Float)
+    Score_ADPe = Column(Float)
+    Score_WU = Column(Float)
+    Score_ADPf = Column(Float)
+    Score_TPE = Column(Float)
+    Score_WEEE = Column(Float)
+
     # Caractéristiques techniques
     Nb_Coeurs = Column(Integer)
     RAM_Go = Column(Integer)
@@ -23,9 +38,3 @@ class DesktopImpact(Base):
     ADPf = Column(Float)  # Abiotic Depletion Potential fossil (Énergie fossile)
     TPE = Column(Float)  # Total Primary Energy (Énergie primaire)
     WEEE = Column(Float)  # Waste Electrical and Electronic Equipment (Déchets)
-
-    # Nouvelle colonne pour le département
-    Departement = Column(String)
-
-    # Colonne pour le scoring final (Note sur 5)
-    Score_Final = Column(Float)
