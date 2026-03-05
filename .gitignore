@@ -1,0 +1,25 @@
+# --- Base de données ---
+*.db
+*.sqlite3
+
+# --- Environnement virtuel et dépendances ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Caches Python et IDE ---
+__pycache__/
+*.py[cod]
+*$py.class
+.idea/
+.vscode/
+
+# --- Logs et fichiers temporaires ---
+*.log
+logs/
+
+# --- Spécifique à chacun ---
+*.iml
+.DS_Store
+.ipynb_checkpoints/
